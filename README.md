@@ -5,3 +5,5 @@ Live booking dashboard for the tracked ViewYacht fleet (67ft / 80ft list + newes
 Updated daily by Grok Bot.
 
 **Live site:** https://notnotsns.github.io/yacht-availabilities/
+
+_Deploy kick: 2026-09-21_
