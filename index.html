@@ -138,6 +138,7 @@
   .status.Booked { color: #b91c1c; }
   .status.Unavailable { color: var(--warn); }
   .status.Transit { color: var(--accent); }
+  .status.Hold { color: #be123c; }
   .status.NEW { color: var(--good); }
   .empty { color: var(--muted); font-size: 0.88rem; padding: 8px 0; }
   footer { padding: 0 28px 32px; color: var(--muted); font-size: 0.82rem; }
@@ -222,6 +223,7 @@
   .pill.booked { background: var(--good-bg); color: #047857; }
   .pill.other { background: #e0f2fe; color: #0369a1; }
   .pill.new { background: var(--warn-bg); color: #c2410c; }
+  .pill.hold { background: #ffe4e6; color: #be123c; }
   .next { color: var(--muted); font-size: 0.85rem; }
   .detail-row td {
     background: var(--row);
@@ -311,7 +313,7 @@
 </div>
 <div class="grid" id="grid"></div>
 <div id="fleetView" class="hidden"></div>
-<footer id="footer">Data from ViewYacht · firstSeen is when this tracker first recorded the booking · yachts grouped to nearest of 67 ft or 80 ft</footer>
+<footer id="footer">Data from ViewYacht · firstSeen is when this tracker first recorded the booking · statuses: Booked / Unavailable / Transit / Hold · yachts grouped to nearest of 67 ft or 80 ft</footer>
 <script>
 const EMBEDDED = /*__FLEET_JSON__*/ null;
 
@@ -372,7 +374,8 @@ function parseDate(s) {
 function bookingStats(bookings) {
   const list = bookings || [];
   const booked = list.filter(b => b.status === 'Booked');
-  const other = list.filter(b => b.status !== 'Booked');
+  const hold = list.filter(b => b.status === 'Hold');
+  const other = list.filter(b => b.status !== 'Booked' && b.status !== 'Hold');
   const neu = list.filter(b => b.isNew);
   const dated = list.map(b => ({ b, t: parseDate(b.end) || parseDate(b.start) })).filter(x => x.t != null);
   dated.sort((a, b) => b.t - a.t);
@@ -383,7 +386,7 @@ function bookingStats(bookings) {
     .sort((a, b) => a.t - b.t);
   const now = Date.now();
   const next = upcoming.find(x => x.t >= now - 86400000) || upcoming[0] || null;
-  return { booked: booked.length, other: other.length, neu: neu.length, latest, next: next ? next.b : null, all: list };
+  return { booked: booked.length, hold: hold.length, other: other.length, neu: neu.length, latest, next: next ? next.b : null, all: list };
 }
 
 function parseFeet(length) {
@@ -467,7 +470,7 @@ function render(data) {
             <td>${formatRoute(b.route)}</td>
             <td>${b.firstSeen || ''}</td>
           </tr>`).join('') + `</tbody></table>`
-        : `<div class="empty">No Booked / Unavailable / Transit rows in list view</div>`;
+        : `<div class="empty">No Booked / Unavailable / Transit / Hold rows in list view</div>`;
       const gone = cancelled.length
         ? `<div class="empty">Cancelled / gone: ` + cancelled.map(c => `${c.start} → ${c.end}`).join('; ') + `</div>`
         : '';
@@ -489,6 +492,7 @@ function render(data) {
         ? `<span class="latest-sub">(${s.latest.status})</span>` : '';
       const pills = [
         `<span class="pill booked">${s.booked} booking${s.booked === 1 ? '' : 's'}</span>`,
+        s.hold ? `<span class="pill hold">${s.hold} hold</span>` : '',
         s.other ? `<span class="pill other">${s.other} other</span>` : '',
         s.neu ? `<span class="pill new">+${s.neu} new</span>` : '',
       ].join('');
