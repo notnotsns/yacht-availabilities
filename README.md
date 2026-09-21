@@ -6,4 +6,4 @@ Updated daily by Grok Bot.
 
 **Live site:** https://notnotsns.github.io/yacht-availabilities/
 
-_Deploy kick: 2026-09-21_
+_Deploy kick: 2026-09-21 public again_
