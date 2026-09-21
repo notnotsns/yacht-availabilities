@@ -90,8 +90,14 @@
   .grid {
     padding: 0 28px 40px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 14px;
+  }
+  @media (max-width: 1100px) {
+    .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 700px) {
+    .grid { grid-template-columns: 1fr; }
   }
   .card {
     background: var(--panel);
@@ -328,6 +334,14 @@ async function loadFleet() {
   return { checkedAt: meta.checkedAt, yachtCount: meta.yachtCount || yachts.length, yachts };
 }
 
+function formatRoute(route) {
+  if (!route) return '';
+  let r = String(route).trim();
+  // Normalize ASCII/other arrows to the ViewYacht style arrow
+  r = r.replace(/\s*(?:→|->|=>|—>|–>)\s*/g, ' → ');
+  return r;
+}
+
 function toFeet(length) {
   if (!length) return null;
   const s = String(length).toLowerCase();
@@ -450,7 +464,7 @@ function render(data) {
             <td class="status ${b.isNew ? 'NEW' : b.status}">${b.isNew ? 'NEW · ' : ''}${b.status}</td>
             <td>${b.start} → ${b.end}</td>
             <td>${b.days || ''}</td>
-            <td>${b.route || ''}</td>
+            <td>${formatRoute(b.route)}</td>
             <td>${b.firstSeen || ''}</td>
           </tr>`).join('') + `</tbody></table>`
         : `<div class="empty">No Booked / Unavailable / Transit rows in list view</div>`;
@@ -487,7 +501,7 @@ function render(data) {
               <td>${b.isNew ? 'NEW · ' : ''}${b.status}</td>
               <td>${b.start} → ${b.end}</td>
               <td>${b.days || ''}</td>
-              <td>${b.route || ''}</td>
+              <td>${formatRoute(b.route)}</td>
               <td>${b.firstSeen || ''}</td>
             </tr>`).join('')}
             </tbody></table>
@@ -557,7 +571,7 @@ function render(data) {
           <td>${b.status || ''}${newPill ? ' ' + newPill : ''}</td>
           <td>${b.start || ''} → ${b.end || ''}</td>
           <td>${b.days || ''}</td>
-          <td>${b.route || ''}</td>
+          <td>${formatRoute(b.route)}</td>
         </tr>`;
       }).join('');
     };
