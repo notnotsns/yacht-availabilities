@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Yacht Booking Tracker</title>
+<style>
+  :root {
+    --bg: #f4f5f7;
+    --panel: #ffffff;
+    --border: #e6e8ee;
+    --text: #111827;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --teal: #0d9488;
+    --good: #059669;
+    --good-bg: #d1fae5;
+    --warn: #d97706;
+    --warn-bg: #ffedd5;
+    --other-bg: #ecfdf5;
+    --chip: #f3f4f6;
+    --row: #f9fafb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  header {
+    padding: 24px 28px 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  h1 { margin: 0; font-size: 1.45rem; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); font-size: 0.92rem; margin-top: 6px; }
+  .stats { display: flex; gap: 10px; flex-wrap: wrap; }
+  .stat {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 10px 14px;
+    min-width: 110px;
+  }
+  .stat b { display: block; font-size: 1.2rem; }
+  .stat span { color: var(--muted); font-size: 0.78rem; }
+  .toolbar {
+    padding: 8px 28px 16px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .view-toggle {
+    display: inline-flex;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 3px;
+    gap: 2px;
+  }
+  .view-toggle button {
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+    padding: 8px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.9rem;
+  }
+  .view-toggle button.active {
+    background: #111827;
+    color: #fff;
+  }
+  input, select {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 10px;
+    padding: 10px 12px;
+    outline: none;
+  }
+  input { min-width: 220px; flex: 1; }
+  .grid {
+    padding: 0 28px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 14px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .card h2 {
+    margin: 0;
+    font-size: 1.05rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: baseline;
+  }
+  .card h2 a { color: inherit; text-decoration: none; }
+  .card h2 a:hover { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 0.86rem; line-height: 1.45; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    background: var(--chip);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  .chip.ok { color: var(--good); background: var(--good-bg); border-color: #a7f3d0; }
+  .chip.warn { color: var(--warn); background: var(--warn-bg); border-color: #fed7aa; }
+  .chip.bad { color: #b91c1c; background: #fee2e2; border-color: #fecaca; }
+  table.card-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+  table.card-table th, table.card-table td { text-align: left; padding: 7px 4px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  table.card-table th { color: var(--muted); font-weight: 500; }
+  .status { font-weight: 600; }
+  .status.Booked { color: #b91c1c; }
+  .status.Unavailable { color: var(--warn); }
+  .status.Transit { color: var(--accent); }
+  .status.NEW { color: var(--good); }
+  .empty { color: var(--muted); font-size: 0.88rem; padding: 8px 0; }
+  footer { padding: 0 28px 32px; color: var(--muted); font-size: 0.82rem; }
+  .hidden { display: none !important; }
+
+  /* Fleet list view */
+  #fleetView { padding: 0 28px 40px; display: flex; flex-direction: column; gap: 18px; }
+  .fleet-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 18px 20px 8px;
+    box-shadow: 0 1px 2px rgba(16,24,40,0.04);
+  }
+  .fleet-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+  .fleet-head h2 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.55rem;
+    font-weight: 700;
+  }
+  .range-pill {
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+  .range-pill.ft67 { background: #ccfbf1; color: #0f766e; }
+  .range-pill.ft80 { background: #ffedd5; color: #c2410c; }
+  .fleet-count { margin-left: auto; color: var(--muted); font-size: 0.9rem; }
+  table.fleet-table { width: 100%; border-collapse: collapse; }
+  table.fleet-table th {
+    text-align: left;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    color: #9ca3af;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  table.fleet-table td {
+    padding: 14px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+    font-size: 0.92rem;
+  }
+  table.fleet-table tr:last-child td { border-bottom: none; }
+  .yacht-name { font-weight: 700; text-transform: uppercase; letter-spacing: 0.01em; }
+  .yacht-note { display: block; color: var(--muted); font-size: 0.78rem; font-weight: 400; text-transform: none; margin-top: 2px; }
+  a.listing {
+    color: var(--teal);
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  a.listing:hover { text-decoration: underline; }
+  .latest-sub { display: block; color: var(--muted); font-size: 0.78rem; margin-top: 2px; }
+  .bookings-cell { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .chev {
+    color: #9ca3af;
+    cursor: pointer;
+    user-select: none;
+    width: 18px;
+    display: inline-block;
+    transition: transform .15s ease;
+  }
+  .chev.open { transform: rotate(90deg); }
+  .pill {
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .pill.booked { background: var(--good-bg); color: #047857; }
+  .pill.other { background: #e0f2fe; color: #0369a1; }
+  .pill.new { background: var(--warn-bg); color: #c2410c; }
+  .next { color: var(--muted); font-size: 0.85rem; }
+  .detail-row td {
+    background: var(--row);
+    padding: 0 10px 14px 38px;
+  }
+  .detail-row table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+  .detail-row th, .detail-row td { border: 0; padding: 6px 8px 6px 0; }
+  .detail-row th { color: var(--muted); font-size: 0.72rem; letter-spacing: 0.04em; }
+
+  .newest-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 18px 20px 8px;
+    box-shadow: 0 1px 2px rgba(16,24,40,0.04);
+  }
+  .newest-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+  .newest-head h2 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+  .newest-head .hint { color: var(--muted); font-size: 0.88rem; }
+  .newest-filters { display: flex; gap: 8px; margin-left: auto; align-items: center; }
+  .newest-filters select {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+  table.newest-table { width: 100%; border-collapse: collapse; }
+  table.newest-table th {
+    text-align: left;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    color: #9ca3af;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  table.newest-table td {
+    padding: 12px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+    font-size: 0.9rem;
+  }
+  table.newest-table tr:last-child td { border-bottom: none; }
+  .seen-today { background: #fff7ed; }
+  .pill.fleet67 { background: #ccfbf1; color: #0f766e; }
+  .pill.fleet80 { background: #ffedd5; color: #c2410c; }
+
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Yacht Booking Tracker</h1>
+    <div class="sub" id="checkedAt">Loading fleet…</div>
+  </div>
+  <div class="stats">
+    <div class="stat"><b id="statYachts">—</b><span>Yachts</span></div>
+    <div class="stat"><b id="statBooked">—</b><span>Booked blocks</span></div>
+    <div class="stat"><b id="statNew">—</b><span>New since last check</span></div>
+    <div class="stat"><b id="statGone">—</b><span>Cancelled / gone</span></div>
+  </div>
+</header>
+<div class="toolbar">
+  <div class="view-toggle" role="tablist">
+    <button type="button" id="btnCards" class="active">Cards</button>
+    <button type="button" id="btnFleet">67 / 80 ft list</button>
+  </div>
+  <input id="q" type="search" placeholder="Filter by name, type, route…" />
+  <select id="typeFilter">
+    <option value="">All types</option>
+  </select>
+  <select id="sortBy">
+    <option value="name">Sort: Name</option>
+    <option value="length">Sort: Length</option>
+    <option value="bookings">Sort: Booking count</option>
+    <option value="newest">Sort: Newest booking firstSeen</option>
+  </select>
+</div>
+<div class="grid" id="grid"></div>
+<div id="fleetView" class="hidden"></div>
+<footer id="footer">Data from ViewYacht · firstSeen is when this tracker first recorded the booking · yachts grouped to nearest of 67 ft or 80 ft</footer>
+<script>
+const EMBEDDED = /*__FLEET_JSON__*/ null;
+
+async function loadFleet() {
+  if (EMBEDDED) return EMBEDDED;
+  const res = await fetch('./fleet.json', { cache: 'no-store' });
+  if (!res.ok) throw new Error('Could not load fleet.json');
+  return res.json();
+}
+
+function toFeet(length) {
+  if (!length) return null;
+  const s = String(length).toLowerCase();
+  const m = s.match(/([\d.]+)/);
+  if (!m) return null;
+  const n = parseFloat(m[1]);
+  if (s.includes('meter') || s.includes('metre') || /\bm\b/.test(s)) return n * 3.28084;
+  return n;
+}
+
+function fmtFeet(ft) {
+  if (ft == null || Number.isNaN(ft)) return '—';
+  const rounded = Math.round(ft * 10) / 10;
+  return (Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1)) + ' ft';
+}
+
+function nearestFleet(ft) {
+  // Midpoint between 67 and 80 is 73.5
+  if (ft == null) return 'other';
+  return Math.abs(ft - 67) <= Math.abs(ft - 80) ? '67' : '80';
+}
+
+function parseDate(s) {
+  const t = Date.parse(s);
+  return Number.isNaN(t) ? null : t;
+}
+
+function bookingStats(bookings) {
+  const list = bookings || [];
+  const booked = list.filter(b => b.status === 'Booked');
+  const other = list.filter(b => b.status !== 'Booked');
+  const neu = list.filter(b => b.isNew);
+  const dated = list.map(b => ({ b, t: parseDate(b.end) || parseDate(b.start) })).filter(x => x.t != null);
+  dated.sort((a, b) => b.t - a.t);
+  const latest = dated[0] ? dated[0].b : null;
+  const upcoming = list
+    .map(b => ({ b, t: parseDate(b.start) }))
+    .filter(x => x.t != null)
+    .sort((a, b) => a.t - b.t);
+  const now = Date.now();
+  const next = upcoming.find(x => x.t >= now - 86400000) || upcoming[0] || null;
+  return { booked: booked.length, other: other.length, neu: neu.length, latest, next: next ? next.b : null, all: list };
+}
+
+function parseFeet(length) {
+  return toFeet(length) || 0;
+}
+
+function render(data) {
+  const yachts = (data.yachts || []).map(y => {
+    const ft = toFeet(y.length);
+    return { ...y, _ft: ft, _fleet: nearestFleet(ft), _stats: bookingStats(y.bookings) };
+  });
+  const q = document.getElementById('q');
+  const typeFilter = document.getElementById('typeFilter');
+  const sortBy = document.getElementById('sortBy');
+  const btnCards = document.getElementById('btnCards');
+  const btnFleet = document.getElementById('btnFleet');
+  const grid = document.getElementById('grid');
+  const fleetView = document.getElementById('fleetView');
+
+  const types = [...new Set(yachts.map(y => y.yachtType).filter(Boolean))].sort();
+  typeFilter.innerHTML = '<option value="">All types</option>' + types.map(t => `<option value="${t}">${t}</option>`).join('');
+
+  const totalBooked = yachts.reduce((n, y) => n + (y.bookings || []).filter(b => b.status === 'Booked').length, 0);
+  const totalNew = yachts.reduce((n, y) => n + (y.bookings || []).filter(b => b.isNew).length, 0);
+  const totalGone = yachts.reduce((n, y) => n + (y.cancelled || []).length, 0);
+
+  document.getElementById('statYachts').textContent = yachts.length;
+  document.getElementById('statBooked').textContent = totalBooked;
+  document.getElementById('statNew').textContent = totalNew;
+  document.getElementById('statGone').textContent = totalGone;
+  document.getElementById('checkedAt').textContent = data.checkedAt
+    ? `Last checked ${data.checkedAt}`
+    : 'Awaiting first full scrape';
+
+  let view = localStorage.getItem('yachtTrackerView') || 'fleet';
+
+  function filtered() {
+    const query = q.value.trim().toLowerCase();
+    const type = typeFilter.value;
+    let list = yachts.filter(y => {
+      if (type && y.yachtType !== type) return false;
+      if (!query) return true;
+      const hay = [
+        y.name, y.builder, y.yachtType, y.length, y.slug,
+        ...(y.bookings || []).flatMap(b => [b.route, b.start, b.end, b.status])
+      ].join(' ').toLowerCase();
+      return hay.includes(query);
+    });
+    const mode = sortBy.value;
+    list = list.slice().sort((a, b) => {
+      if (mode === 'length') return (b._ft || 0) - (a._ft || 0);
+      if (mode === 'bookings') return (b.bookings || []).length - (a.bookings || []).length;
+      if (mode === 'newest') {
+        const an = Math.max(0, ...(a.bookings || []).map(x => Date.parse(x.firstSeen || 0) || 0));
+        const bn = Math.max(0, ...(b.bookings || []).map(x => Date.parse(x.firstSeen || 0) || 0));
+        return bn - an;
+      }
+      return String(a.name || '').localeCompare(String(b.name || ''));
+    });
+    return list;
+  }
+
+  function paintCards(list) {
+    grid.innerHTML = list.map(y => {
+      const bookings = y.bookings || [];
+      const cancelled = y.cancelled || [];
+      const chips = [
+        y.length ? `<span class="chip">${fmtFeet(y._ft)}</span>` : '',
+        y.yachtType ? `<span class="chip ${y.isCatamaran ? 'ok' : 'warn'}">${y.yachtType}</span>` : '',
+        y.builder ? `<span class="chip">${y.builder}${y.built ? ' · ' + y.built : ''}</span>` : '',
+        `<span class="chip">${bookings.length} active</span>`,
+        (bookings.some(b => b.isNew) ? `<span class="chip ok">New booking</span>` : ''),
+        (cancelled.length ? `<span class="chip bad">${cancelled.length} gone</span>` : ''),
+      ].join('');
+      const rows = bookings.length
+        ? `<table class="card-table"><thead><tr><th>Status</th><th>Dates</th><th>Days</th><th>Route</th><th>First seen</th></tr></thead><tbody>` +
+          bookings.map(b => `<tr>
+            <td class="status ${b.isNew ? 'NEW' : b.status}">${b.isNew ? 'NEW · ' : ''}${b.status}</td>
+            <td>${b.start} → ${b.end}</td>
+            <td>${b.days || ''}</td>
+            <td>${b.route || ''}</td>
+            <td>${b.firstSeen || ''}</td>
+          </tr>`).join('') + `</tbody></table>`
+        : `<div class="empty">No Booked / Unavailable / Transit rows in list view</div>`;
+      const gone = cancelled.length
+        ? `<div class="empty">Cancelled / gone: ` + cancelled.map(c => `${c.start} → ${c.end}`).join('; ') + `</div>`
+        : '';
+      return `<article class="card">
+        <h2><a href="${y.url || '#'}" target="_blank" rel="noopener">${y.name || y.slug}</a></h2>
+        <div class="meta">${y.error ? 'Error: ' + y.error : (y.slug || '')}</div>
+        <div class="chips">${chips}</div>
+        ${rows}
+        ${gone}
+      </article>`;
+    }).join('') || '<div class="empty" style="padding:20px">No yachts match this filter.</div>';
+  }
+
+  function fleetSection(title, rangeLabel, rangeClass, list) {
+    const rows = list.slice().sort((a, b) => (b._ft || 0) - (a._ft || 0)).map((y, idx) => {
+      const s = y._stats;
+      const latestDate = s.latest ? (s.latest.end || s.latest.start) : '—';
+      const latestNote = s.latest && s.latest.status && s.latest.status !== 'Booked'
+        ? `<span class="latest-sub">(${s.latest.status})</span>` : '';
+      const pills = [
+        `<span class="pill booked">${s.booked} booking${s.booked === 1 ? '' : 's'}</span>`,
+        s.other ? `<span class="pill other">${s.other} other</span>` : '',
+        s.neu ? `<span class="pill new">+${s.neu} new</span>` : '',
+      ].join('');
+      const next = s.next ? `<span class="next">next: ${s.next.start}</span>` : '';
+      const detailId = `d-${y.slug}`;
+      const detail = (y.bookings || []).length
+        ? `<tr class="detail-row hidden" id="${detailId}"><td colspan="5">
+            <table><thead><tr><th>STATUS</th><th>DATES</th><th>DAYS</th><th>ROUTE</th><th>FIRST SEEN</th></tr></thead><tbody>
+            ${(y.bookings || []).map(b => `<tr>
+              <td>${b.isNew ? 'NEW · ' : ''}${b.status}</td>
+              <td>${b.start} → ${b.end}</td>
+              <td>${b.days || ''}</td>
+              <td>${b.route || ''}</td>
+              <td>${b.firstSeen || ''}</td>
+            </tr>`).join('')}
+            </tbody></table>
+          </td></tr>`
+        : '';
+      return `<tr>
+        <td><div class="yacht-name">${y.name || y.slug}</div></td>
+        <td>${fmtFeet(y._ft)}</td>
+        <td><a class="listing" href="${y.url || '#'}" target="_blank" rel="noopener">listing ↗</a></td>
+        <td>${latestDate}${latestNote}</td>
+        <td>
+          <div class="bookings-cell">
+            <span class="chev" data-toggle="${detailId}" title="Show bookings">›</span>
+            ${pills}
+            ${next}
+          </div>
+        </td>
+      </tr>${detail}`;
+    }).join('');
+
+    return `<section class="fleet-card">
+      <div class="fleet-head">
+        <h2>${title}</h2>
+        <span class="range-pill ${rangeClass}">${rangeLabel}</span>
+        <span class="fleet-count">${list.length} yacht${list.length === 1 ? '' : 's'}</span>
+      </div>
+      <table class="fleet-table">
+        <thead><tr>
+          <th>YACHT</th><th>SIZE</th><th>LISTING</th><th>LATEST BOOKING</th><th>BOOKINGS</th>
+        </tr></thead>
+        <tbody>${rows || `<tr><td colspan="5" class="empty">No yachts in this group</td></tr>`}</tbody>
+      </table>
+    </section>`;
+  }
+
+  function paintFleet(list) {
+    const checkedAt = data.checkedAt || '';
+    // Flatten bookings with yacht context, newest firstSeen first
+    const flat = [];
+    for (const y of list) {
+      for (const b of (y.bookings || [])) {
+        flat.push({ y, b, seen: b.firstSeen || '', t: parseDate(b.firstSeen) || 0 });
+      }
+    }
+    flat.sort((a, b) => b.t - a.t || String(b.b.start || '').localeCompare(String(a.b.start || '')));
+
+    const dayOptions = [...new Set(flat.map(x => x.seen).filter(Boolean))].sort().reverse();
+    const defaultDay = checkedAt && dayOptions.includes(checkedAt) ? checkedAt : (dayOptions[0] || '');
+
+    const newestRows = (dayFilter) => {
+      const rows = dayFilter ? flat.filter(x => x.seen === dayFilter) : flat;
+      if (!rows.length) {
+        return `<tr><td colspan="7" class="empty">No bookings${dayFilter ? ' for ' + dayFilter : ''} yet — new ones will show here after each daily scrape.</td></tr>`;
+      }
+      return rows.map(({ y, b }) => {
+        const isToday = checkedAt && b.firstSeen === checkedAt;
+        const fleetPill = y._fleet === '80'
+          ? `<span class="pill fleet80">80ft</span>`
+          : y._fleet === '67'
+            ? `<span class="pill fleet67">67ft</span>`
+            : '';
+        const newPill = b.isNew || isToday ? `<span class="pill new">new</span>` : '';
+        return `<tr class="${isToday ? 'seen-today' : ''}">
+          <td>${b.firstSeen || '—'}</td>
+          <td><div class="yacht-name">${y.name || y.slug}</div></td>
+          <td>${fleetPill}</td>
+          <td>${b.status || ''}${newPill ? ' ' + newPill : ''}</td>
+          <td>${b.start || ''} → ${b.end || ''}</td>
+          <td>${b.days || ''}</td>
+          <td>${b.route || ''}</td>
+        </tr>`;
+      }).join('');
+    };
+
+    const newestBlock = `<section class="newest-card" id="newestCard">
+      <div class="newest-head">
+        <h2>Newest bookings</h2>
+        <span class="hint">by first-seen date from the daily scrape</span>
+        <div class="newest-filters">
+          <label for="newestDay" class="hint">Show</label>
+          <select id="newestDay">
+            <option value="">All dates</option>
+            ${dayOptions.map(d => `<option value="${d}" ${d === defaultDay ? 'selected' : ''}>First seen ${d}</option>`).join('')}
+          </select>
+        </div>
+      </div>
+      <table class="newest-table">
+        <thead><tr>
+          <th>FIRST SEEN</th><th>YACHT</th><th>FLEET</th><th>STATUS</th><th>DATES</th><th>DAYS</th><th>ROUTE</th>
+        </tr></thead>
+        <tbody id="newestBody">${newestRows(defaultDay)}</tbody>
+      </table>
+    </section>`;
+
+    const g67 = list.filter(y => y._fleet === '67');
+    const g80 = list.filter(y => y._fleet === '80');
+    const other = list.filter(y => y._fleet === 'other');
+    const ft67 = g67.map(y => y._ft).filter(x => x != null);
+    const ft80 = g80.map(y => y._ft).filter(x => x != null);
+    const range67 = ft67.length ? `${Math.round(Math.min(...ft67))}–${Math.round(Math.max(...ft67))} ft` : 'near 67 ft';
+    const range80 = ft80.length ? `${Math.round(Math.min(...ft80))}–${Math.round(Math.max(...ft80))} ft` : 'near 80 ft';
+    fleetView.innerHTML = newestBlock +
+      fleetSection('80ft Fleet', range80, 'ft80', g80) +
+      fleetSection('67ft Fleet', range67, 'ft67', g67) +
+      (other.length ? fleetSection('Other', 'no length', 'ft67', other) : '');
+
+    const daySel = document.getElementById('newestDay');
+    if (daySel) {
+      daySel.onchange = () => {
+        document.getElementById('newestBody').innerHTML = newestRows(daySel.value);
+      };
+    }
+
+    fleetView.querySelectorAll('.chev').forEach(el => {
+      el.addEventListener('click', () => {
+        const id = el.getAttribute('data-toggle');
+        const row = document.getElementById(id);
+        if (!row) return;
+        const open = row.classList.toggle('hidden') === false;
+        el.classList.toggle('open', open);
+        el.textContent = open ? '⌄' : '›';
+      });
+    });
+  }
+
+  function setView(next) {
+    view = next;
+    localStorage.setItem('yachtTrackerView', view);
+    btnCards.classList.toggle('active', view === 'cards');
+    btnFleet.classList.toggle('active', view === 'fleet');
+    grid.classList.toggle('hidden', view !== 'cards');
+    fleetView.classList.toggle('hidden', view !== 'fleet');
+    paint();
+  }
+
+  function paint() {
+    const list = filtered();
+    if (view === 'cards') paintCards(list);
+    else paintFleet(list);
+  }
+
+  btnCards.onclick = () => setView('cards');
+  btnFleet.onclick = () => setView('fleet');
+  q.oninput = paint;
+  typeFilter.onchange = paint;
+  sortBy.onchange = paint;
+  setView(view);
+}
+
+loadFleet().then(render).catch(err => {
+  document.getElementById('checkedAt').textContent = err.message;
+});
+</script>
+</body>
+</html>
