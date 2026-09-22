@@ -1,1 +1,53 @@
-{"slug":"alma","url":"https://viewyacht.com/alma","name":"ALMA","builder":"Fountaine Pajot","built":2022,"length":"61.61 feet","yachtType":"Catamaran","isCatamaran":true,"guests":10,"cabins":5,"crew":3,"bookings":[{"status":"Booked","start":"May 28, 2027","end":"Jun 4, 2027","days":"7 days","route":"Mykonos, Greece \u2192 Athens, Greece","firstSeen":"2026-09-21","isNew":false},{"status":"Booked","start":"Jun 5, 2027","end":"Jun 12, 2027","days":"7 days","route":"Athens, Greece","firstSeen":"2026-09-21","isNew":false}],"cancelled":[],"checkedAt":"2026-09-21"}
+{
+  "slug": "alma",
+  "url": "https://viewyacht.com/alma",
+  "name": "ALMA",
+  "builder": "Fountaine Pajot",
+  "built": 2022,
+  "length": "61.61 feet",
+  "yachtType": "Catamaran",
+  "isCatamaran": true,
+  "checkedAt": "2026-09-22",
+  "bookings": [
+    {
+      "status": "Booked",
+      "start": "May 28, 2027",
+      "end": "Jun 4, 2027",
+      "days": "7 days",
+      "route": "Mykonos, Greece → Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jun 5, 2027",
+      "end": "Jun 12, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Hold",
+      "start": "Jul 1, 2027",
+      "end": "Jul 8, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Booked",
+      "start": "Sep 4, 2027",
+      "end": "Sep 11, 2027",
+      "days": "7 days",
+      "route": "Paros, Greece",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    }
+  ],
+  "guests": 10,
+  "cabins": 5,
+  "crew": 3,
+  "cancelled": []
+}
