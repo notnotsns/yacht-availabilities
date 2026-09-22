@@ -1,1 +1,188 @@
-PLACEHOLDER
+{
+  "slug": "9436-sunmoon",
+  "url": "https://viewyacht.com/9436-sunmoon",
+  "name": "SUNMOON",
+  "builder": "Fountaine Pajot",
+  "built": 2024,
+  "length": "66.8 feet",
+  "yachtType": "Catamaran",
+  "isCatamaran": true,
+  "checkedAt": "2026-09-22",
+  "bookings": [
+    {
+      "status": "Booked",
+      "start": "Sep 22, 2026",
+      "end": "Sep 29, 2026",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Transit",
+      "start": "Sep 30, 2026",
+      "end": "Dec 17, 2026",
+      "days": "78 days",
+      "route": "Athens, Greece → Tortola, TBD",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Dec 18, 2026",
+      "end": "Dec 25, 2026",
+      "days": "7 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Unavailable",
+      "start": "Dec 26, 2026",
+      "end": "Dec 27, 2026",
+      "days": "1 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Dec 28, 2026",
+      "end": "Jan 4, 2027",
+      "days": "7 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Unavailable",
+      "start": "Jan 5, 2027",
+      "end": "Jan 6, 2027",
+      "days": "1 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Hold",
+      "start": "Jan 7, 2027",
+      "end": "Jan 12, 2027",
+      "days": "5 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Unavailable",
+      "start": "Jan 13, 2027",
+      "end": "Feb 10, 2027",
+      "days": "28 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Unavailable",
+      "start": "Feb 11, 2027",
+      "end": "Feb 12, 2027",
+      "days": "1 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Booked",
+      "start": "Feb 13, 2027",
+      "end": "Feb 20, 2027",
+      "days": "7 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Unavailable",
+      "start": "Feb 21, 2027",
+      "end": "Feb 22, 2027",
+      "days": "1 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Booked",
+      "start": "Feb 23, 2027",
+      "end": "Mar 2, 2027",
+      "days": "7 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Unavailable",
+      "start": "Mar 11, 2027",
+      "end": "Mar 12, 2027",
+      "days": "1 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Booked",
+      "start": "Mar 13, 2027",
+      "end": "Mar 20, 2027",
+      "days": "7 days",
+      "route": "Tortola, TBD",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Transit",
+      "start": "Mar 21, 2027",
+      "end": "Jun 5, 2027",
+      "days": "76 days",
+      "route": "Tortola, TBD → Athens, Greece",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Booked",
+      "start": "Jun 19, 2027",
+      "end": "Jul 3, 2027",
+      "days": "14 days",
+      "route": "Lefkas, Greece",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Booked",
+      "start": "Jul 6, 2027",
+      "end": "Jul 16, 2027",
+      "days": "10 days",
+      "route": "Lefkas, Greece",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Booked",
+      "start": "Jul 17, 2027",
+      "end": "Aug 1, 2027",
+      "days": "15 days",
+      "route": "Lefkas, Greece",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    },
+    {
+      "status": "Booked",
+      "start": "Sep 11, 2027",
+      "end": "Sep 18, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    }
+  ],
+  "guests": 10,
+  "cabins": 5,
+  "crew": 3,
+  "cancelled": []
+}
