@@ -14,7 +14,7 @@
       "start": "Sep 23, 2026",
       "end": "Sep 30, 2026",
       "days": "7 days",
-      "route": "Athens, Greece → Greece - Mykonos",
+      "route": "Athens, Greece \u2192 Greece - Mykonos",
       "firstSeen": "2026-09-21",
       "isNew": false
     },
@@ -50,7 +50,7 @@
       "start": "Jul 18, 2027",
       "end": "Aug 1, 2027",
       "days": "14 days",
-      "route": "Kefalonia, Greece → Zakynthos, Greece",
+      "route": "Kefalonia, Greece \u2192 Zakynthos, Greece",
       "firstSeen": "2026-09-21",
       "isNew": false
     },
@@ -59,7 +59,7 @@
       "start": "Aug 2, 2027",
       "end": "Aug 9, 2027",
       "days": "7 days",
-      "route": "Zakynthos, Greece → Kefalonia, Greece",
+      "route": "Zakynthos, Greece \u2192 Kefalonia, Greece",
       "firstSeen": "2026-09-21",
       "isNew": false
     },
@@ -68,7 +68,7 @@
       "start": "Aug 26, 2027",
       "end": "Sep 2, 2027",
       "days": "7 days",
-      "route": "Corfu, Greece → Zakynthos, Greece",
+      "route": "Corfu, Greece \u2192 Zakynthos, Greece",
       "firstSeen": "2026-09-22",
       "isNew": true
     }

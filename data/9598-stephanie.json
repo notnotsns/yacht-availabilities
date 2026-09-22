@@ -1,1 +1,53 @@
-{"slug":"9598-stephanie","url":"https://viewyacht.com/9598-stephanie","name":"STEPHANIE","builder":"Fountaine Pajot","built":2024,"length":"66.8 feet","yachtType":"Catamaran","isCatamaran":true,"guests":8,"cabins":4,"crew":4,"bookings":[{"status":"Booked","start":"Sep 22, 2026","end":"Oct 5, 2026","days":"13 days","route":"Athens, Greece","firstSeen":"2026-09-21","isNew":false},{"status":"Booked","start":"Jun 20, 2027","end":"Jun 27, 2027","days":"7 days","route":"Athens, Greece","firstSeen":"2026-09-21","isNew":false},{"status":"Booked","start":"Sep 24, 2027","end":"Oct 1, 2027","days":"7 days","route":"Athens, Greece","firstSeen":"2026-09-21","isNew":false},{"status":"Booked","start":"Oct 2, 2027","end":"Oct 9, 2027","days":"7 days","route":"Athens, Greece","firstSeen":"2026-09-21","isNew":false}],"cancelled":[],"checkedAt":"2026-09-21"}
+{
+  "slug": "9598-stephanie",
+  "url": "https://viewyacht.com/9598-stephanie",
+  "name": "STEPHANIE",
+  "builder": "Fountaine Pajot",
+  "built": 2024,
+  "length": "66.8 feet",
+  "yachtType": "Catamaran",
+  "isCatamaran": true,
+  "checkedAt": "2026-09-22",
+  "bookings": [
+    {
+      "status": "Booked",
+      "start": "Sep 22, 2026",
+      "end": "Oct 5, 2026",
+      "days": "13 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jun 20, 2027",
+      "end": "Jun 27, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Sep 24, 2027",
+      "end": "Oct 1, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Oct 2, 2027",
+      "end": "Oct 9, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    }
+  ],
+  "guests": 8,
+  "cabins": 4,
+  "crew": 4,
+  "cancelled": []
+}

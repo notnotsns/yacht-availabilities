@@ -14,7 +14,7 @@
       "start": "Dec 27, 2026",
       "end": "Jan 3, 2027",
       "days": "7 days",
-      "route": "Antigua, Leeward Island → Saint  Maarten, West Indies",
+      "route": "Antigua, Leeward Island \u2192 Saint  Maarten, West Indies",
       "firstSeen": "2026-09-21",
       "isNew": false
     },
@@ -23,7 +23,7 @@
       "start": "Feb 20, 2027",
       "end": "Feb 27, 2027",
       "days": "7 days",
-      "route": "St Vincent, Young Island → Grenada, St Georges",
+      "route": "St Vincent, Young Island \u2192 Grenada, St Georges",
       "firstSeen": "2026-09-21",
       "isNew": false
     },
