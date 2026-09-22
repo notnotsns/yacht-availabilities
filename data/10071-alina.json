@@ -1,1 +1,80 @@
-{"slug":"10071-alina","url":"https://viewyacht.com/10071-alina","name":"ALINA","builder":"Fountaine Pajot","built":2026,"length":"78.7 feet","yachtType":"Power Catamaran","isCatamaran":true,"guests":10,"cabins":5,"crew":5,"bookings":[{"status":"Booked","start":"Sep 23, 2026","end":"Sep 30, 2026","days":"7 days","route":"Athens, Greece","firstSeen":"2026-09-21","isNew":false},{"status":"Booked","start":"Oct 2, 2026","end":"Oct 9, 2026","days":"7 days","route":"Athens, Greece","firstSeen":"2026-09-21","isNew":false},{"status":"Booked","start":"Oct 15, 2026","end":"Oct 18, 2026","days":"3 days","route":"Athens, Greece","firstSeen":"2026-09-21","isNew":false},{"status":"Booked","start":"Jun 5, 2027","end":"Jun 12, 2027","days":"7 days","route":"Athens, Greece","firstSeen":"2026-09-21","isNew":false},{"status":"Booked","start":"Jul 18, 2027","end":"Aug 1, 2027","days":"14 days","route":"Kefalonia, Greece \u2192 Zakynthos, Greece","firstSeen":"2026-09-21","isNew":false},{"status":"Booked","start":"Aug 2, 2027","end":"Aug 9, 2027","days":"7 days","route":"Zakynthos, Greece \u2192 Kefalonia, Greece","firstSeen":"2026-09-21","isNew":false}],"cancelled":[],"checkedAt":"2026-09-21"}
+{
+  "slug": "10071-alina",
+  "url": "https://viewyacht.com/10071-alina",
+  "name": "ALINA",
+  "builder": "Fountaine Pajot",
+  "built": 2026,
+  "length": "78.7 feet",
+  "yachtType": "Power Catamaran",
+  "isCatamaran": true,
+  "checkedAt": "2026-09-22",
+  "bookings": [
+    {
+      "status": "Booked",
+      "start": "Sep 23, 2026",
+      "end": "Sep 30, 2026",
+      "days": "7 days",
+      "route": "Athens, Greece → Greece - Mykonos",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Oct 2, 2026",
+      "end": "Oct 9, 2026",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Oct 15, 2026",
+      "end": "Oct 18, 2026",
+      "days": "3 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jun 5, 2027",
+      "end": "Jun 12, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jul 18, 2027",
+      "end": "Aug 1, 2027",
+      "days": "14 days",
+      "route": "Kefalonia, Greece → Zakynthos, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Aug 2, 2027",
+      "end": "Aug 9, 2027",
+      "days": "7 days",
+      "route": "Zakynthos, Greece → Kefalonia, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Hold",
+      "start": "Aug 26, 2027",
+      "end": "Sep 2, 2027",
+      "days": "7 days",
+      "route": "Corfu, Greece → Zakynthos, Greece",
+      "firstSeen": "2026-09-22",
+      "isNew": true
+    }
+  ],
+  "guests": 10,
+  "cabins": 5,
+  "crew": 5,
+  "cancelled": []
+}
