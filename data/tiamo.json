@@ -7,7 +7,9 @@
   "length": "54.2 feet",
   "yachtType": "Power Catamaran",
   "isCatamaran": true,
-  "checkedAt": "2026-09-22",
+  "guests": 8,
+  "cabins": 4,
+  "crew": 3,
   "bookings": [
     {
       "status": "Booked",
@@ -59,7 +61,7 @@
       "start": "Jul 13, 2027",
       "end": "Jul 20, 2027",
       "days": "7 days",
-      "route": "Lavrion → Kefalonia, Greece",
+      "route": "Lavrion \u2192 Kefalonia, Greece",
       "firstSeen": "2026-09-21",
       "isNew": false
     },
@@ -89,21 +91,17 @@
       "route": "Lavrion",
       "firstSeen": "2026-09-21",
       "isNew": false
-    }
-  ],
-  "guests": 8,
-  "cabins": 4,
-  "crew": 3,
-  "cancelled": [
+    },
     {
-      "status": "Booked",
-      "start": "Sep 14, 2026",
-      "end": "Sep 21, 2026",
+      "status": "Hold",
+      "start": "Aug 5, 2028",
+      "end": "Aug 12, 2028",
       "days": "7 days",
       "route": "Lavrion",
-      "firstSeen": "2026-09-21",
-      "isNew": false,
-      "disappearedAt": "2026-09-22"
+      "firstSeen": "2026-09-25",
+      "isNew": false
     }
-  ]
+  ],
+  "cancelled": [],
+  "checkedAt": "2026-09-30"
 }

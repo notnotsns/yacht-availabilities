@@ -7,7 +7,9 @@
   "length": "18.3 meter",
   "yachtType": "Catamaran",
   "isCatamaran": true,
-  "checkedAt": "2026-09-22",
+  "guests": 10,
+  "cabins": 5,
+  "crew": 3,
   "bookings": [
     {
       "status": "Unavailable",
@@ -38,6 +40,15 @@
     },
     {
       "status": "Booked",
+      "start": "Jun 13, 2027",
+      "end": "Jun 20, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-23",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
       "start": "Jul 31, 2027",
       "end": "Aug 8, 2027",
       "days": "8 days",
@@ -46,8 +57,6 @@
       "isNew": false
     }
   ],
-  "guests": 10,
-  "cabins": 5,
-  "crew": 3,
-  "cancelled": []
+  "cancelled": [],
+  "checkedAt": "2026-09-30"
 }

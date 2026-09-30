@@ -7,14 +7,25 @@
   "length": "61.61 feet",
   "yachtType": "Catamaran",
   "isCatamaran": true,
-  "checkedAt": "2026-09-22",
+  "guests": 10,
+  "cabins": 5,
+  "crew": 3,
   "bookings": [
+    {
+      "status": "Hold",
+      "start": "May 22, 2027",
+      "end": "May 27, 2027",
+      "days": "5 days",
+      "route": "Mykonos, Greece",
+      "firstSeen": "2026-09-23",
+      "isNew": false
+    },
     {
       "status": "Booked",
       "start": "May 28, 2027",
       "end": "Jun 4, 2027",
       "days": "7 days",
-      "route": "Mykonos, Greece → Athens, Greece",
+      "route": "Mykonos, Greece \u2192 Athens, Greece",
       "firstSeen": "2026-09-21",
       "isNew": false
     },
@@ -34,7 +45,7 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -43,11 +54,9 @@
       "days": "7 days",
       "route": "Paros, Greece",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     }
   ],
-  "guests": 10,
-  "cabins": 5,
-  "crew": 3,
-  "cancelled": []
+  "cancelled": [],
+  "checkedAt": "2026-09-30"
 }

@@ -7,17 +7,10 @@
   "length": "23.99 meter",
   "yachtType": "Power Catamaran",
   "isCatamaran": true,
-  "checkedAt": "2026-09-22",
+  "guests": 12,
+  "cabins": 6,
+  "crew": 6,
   "bookings": [
-    {
-      "status": "Booked",
-      "start": "Sep 20, 2026",
-      "end": "Sep 27, 2026",
-      "days": "7 days",
-      "route": "Athens, Greece",
-      "firstSeen": "2026-09-21",
-      "isNew": false
-    },
     {
       "status": "Booked",
       "start": "May 29, 2027",
@@ -61,6 +54,15 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-09-21",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jul 26, 2027",
+      "end": "Aug 2, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-26",
       "isNew": false
     },
     {
@@ -118,8 +120,6 @@
       "isNew": false
     }
   ],
-  "guests": 12,
-  "cabins": 6,
-  "crew": 6,
-  "cancelled": []
+  "cancelled": [],
+  "checkedAt": "2026-09-30"
 }

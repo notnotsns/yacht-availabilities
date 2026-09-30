@@ -7,23 +7,16 @@
   "length": "66.8 feet",
   "yachtType": "Catamaran",
   "isCatamaran": true,
-  "checkedAt": "2026-09-22",
+  "guests": 10,
+  "cabins": 5,
+  "crew": 3,
   "bookings": [
-    {
-      "status": "Booked",
-      "start": "Sep 22, 2026",
-      "end": "Sep 29, 2026",
-      "days": "7 days",
-      "route": "Athens, Greece",
-      "firstSeen": "2026-09-21",
-      "isNew": false
-    },
     {
       "status": "Transit",
       "start": "Sep 30, 2026",
       "end": "Dec 17, 2026",
       "days": "78 days",
-      "route": "Athens, Greece → Tortola, TBD",
+      "route": "Athens, Greece \u2192 Tortola, TBD",
       "firstSeen": "2026-09-21",
       "isNew": false
     },
@@ -64,22 +57,13 @@
       "isNew": false
     },
     {
-      "status": "Hold",
-      "start": "Jan 7, 2027",
-      "end": "Jan 12, 2027",
-      "days": "5 days",
-      "route": "Tortola, TBD",
-      "firstSeen": "2026-09-22",
-      "isNew": true
-    },
-    {
       "status": "Unavailable",
       "start": "Jan 13, 2027",
       "end": "Feb 10, 2027",
       "days": "28 days",
       "route": "Tortola, TBD",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Unavailable",
@@ -88,7 +72,7 @@
       "days": "1 days",
       "route": "Tortola, TBD",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -97,7 +81,7 @@
       "days": "7 days",
       "route": "Tortola, TBD",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Unavailable",
@@ -106,7 +90,7 @@
       "days": "1 days",
       "route": "Tortola, TBD",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -115,7 +99,7 @@
       "days": "7 days",
       "route": "Tortola, TBD",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Unavailable",
@@ -124,7 +108,7 @@
       "days": "1 days",
       "route": "Tortola, TBD",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -133,16 +117,16 @@
       "days": "7 days",
       "route": "Tortola, TBD",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Transit",
       "start": "Mar 21, 2027",
       "end": "Jun 5, 2027",
       "days": "76 days",
-      "route": "Tortola, TBD → Athens, Greece",
+      "route": "Tortola, TBD \u2192 Athens, Greece",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -151,7 +135,7 @@
       "days": "14 days",
       "route": "Lefkas, Greece",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -160,7 +144,7 @@
       "days": "10 days",
       "route": "Lefkas, Greece",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -169,7 +153,7 @@
       "days": "15 days",
       "route": "Lefkas, Greece",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -178,11 +162,29 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-09-22",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "status": "Hold",
+      "start": "Sep 19, 2027",
+      "end": "Sep 26, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece \u2192 Paros, Greece",
+      "firstSeen": "2026-09-25",
+      "isNew": false
     }
   ],
-  "guests": 10,
-  "cabins": 5,
-  "crew": 3,
-  "cancelled": []
+  "cancelled": [
+    {
+      "status": "Booked",
+      "start": "Sep 22, 2026",
+      "end": "Sep 29, 2026",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false,
+      "disappearedAt": "2026-09-30"
+    }
+  ],
+  "checkedAt": "2026-09-30"
 }
