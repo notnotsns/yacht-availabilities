@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-01",
-  "yachtCount": 24,
-  "upcomingCount": 134,
+  "yachtCount": 25,
+  "upcomingCount": 140,
   "slugs": [
     "10071-alina",
     "serenissimaiii",
@@ -26,7 +26,8 @@
     "meltemi-1",
     "elly-ii-2",
     "9629-aether",
-    "8866-wonderful"
+    "8866-wonderful",
+    "adastra80"
   ],
   "statuses": [
     {
@@ -170,6 +171,12 @@
     {
       "slug": "8866-wonderful",
       "name": "WONDERFUL",
+      "bookingCount": 6,
+      "checkedAt": "2026-10-01"
+    },
+    {
+      "slug": "adastra80",
+      "name": "AD ASTRA",
       "bookingCount": 6,
       "checkedAt": "2026-10-01"
     }

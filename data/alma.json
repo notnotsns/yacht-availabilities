@@ -45,7 +45,7 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-10-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Hold",
