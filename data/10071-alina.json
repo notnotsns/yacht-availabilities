@@ -13,15 +13,6 @@
   "bookings": [
     {
       "status": "Booked",
-      "start": "Sep 23, 2026",
-      "end": "Sep 30, 2026",
-      "days": "7 days",
-      "route": "Athens, Greece \u2192 Greece - Mykonos",
-      "firstSeen": "2026-09-21",
-      "isNew": false
-    },
-    {
-      "status": "Booked",
       "start": "Oct 2, 2026",
       "end": "Oct 9, 2026",
       "days": "7 days",
@@ -45,7 +36,7 @@
       "days": "5 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-09-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -86,15 +77,15 @@
   ],
   "cancelled": [
     {
-      "status": "Hold",
-      "start": "May 26, 2027",
-      "end": "May 31, 2027",
-      "days": "5 days",
-      "route": "Athens, Greece",
-      "firstSeen": "2026-09-24",
+      "status": "Booked",
+      "start": "Sep 23, 2026",
+      "end": "Sep 30, 2026",
+      "days": "7 days",
+      "route": "Athens, Greece \u2192 Greece - Mykonos",
+      "firstSeen": "2026-09-21",
       "isNew": false,
-      "disappearedAt": "2026-09-30"
+      "disappearedAt": "2026-10-01"
     }
   ],
-  "checkedAt": "2026-09-30"
+  "checkedAt": "2026-10-01"
 }

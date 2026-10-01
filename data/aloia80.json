@@ -12,15 +12,6 @@
   "crew": 5,
   "bookings": [
     {
-      "status": "Hold",
-      "start": "May 15, 2027",
-      "end": "May 22, 2027",
-      "days": "7 days",
-      "route": "Kefalonia, Greece",
-      "firstSeen": "2026-09-23",
-      "isNew": false
-    },
-    {
       "status": "Booked",
       "start": "Jun 5, 2027",
       "end": "Jun 12, 2027",
@@ -39,6 +30,15 @@
       "isNew": false
     },
     {
+      "status": "Hold",
+      "start": "Aug 13, 2027",
+      "end": "Aug 25, 2027",
+      "days": "12 days",
+      "route": "Greece - Mykonos \u2192 Greece - Santorini",
+      "firstSeen": "2026-10-01",
+      "isNew": true
+    },
+    {
       "status": "Booked",
       "start": "Aug 28, 2027",
       "end": "Sep 4, 2027",
@@ -48,6 +48,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-09-30"
+  "cancelled": [
+    {
+      "status": "Hold",
+      "start": "May 15, 2027",
+      "end": "May 22, 2027",
+      "days": "7 days",
+      "route": "Kefalonia, Greece",
+      "firstSeen": "2026-09-23",
+      "isNew": false,
+      "disappearedAt": "2026-10-01"
+    }
+  ],
+  "checkedAt": "2026-10-01"
 }

@@ -174,17 +174,6 @@
       "isNew": false
     }
   ],
-  "cancelled": [
-    {
-      "status": "Booked",
-      "start": "Sep 22, 2026",
-      "end": "Sep 29, 2026",
-      "days": "7 days",
-      "route": "Athens, Greece",
-      "firstSeen": "2026-09-21",
-      "isNew": false,
-      "disappearedAt": "2026-09-30"
-    }
-  ],
-  "checkedAt": "2026-09-30"
+  "cancelled": [],
+  "checkedAt": "2026-10-01"
 }

@@ -13,15 +13,6 @@
   "bookings": [
     {
       "status": "Booked",
-      "start": "Sep 29, 2026",
-      "end": "Sep 30, 2026",
-      "days": "1 days",
-      "route": "Lavrion",
-      "firstSeen": "2026-09-21",
-      "isNew": false
-    },
-    {
-      "status": "Booked",
       "start": "Jul 2, 2027",
       "end": "Jul 10, 2027",
       "days": "8 days",
@@ -48,6 +39,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-09-30"
+  "cancelled": [
+    {
+      "status": "Booked",
+      "start": "Sep 29, 2026",
+      "end": "Sep 30, 2026",
+      "days": "1 days",
+      "route": "Lavrion",
+      "firstSeen": "2026-09-21",
+      "isNew": false,
+      "disappearedAt": "2026-10-01"
+    }
+  ],
+  "checkedAt": "2026-10-01"
 }

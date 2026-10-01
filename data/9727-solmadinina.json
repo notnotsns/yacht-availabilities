@@ -12,15 +12,6 @@
   "crew": 5,
   "bookings": [
     {
-      "status": "Booked",
-      "start": "Sep 23, 2026",
-      "end": "Sep 30, 2026",
-      "days": "7 days",
-      "route": "Mykonos, Greece \u2192 Athens, Greece",
-      "firstSeen": "2026-09-21",
-      "isNew": false
-    },
-    {
       "status": "Unavailable",
       "start": "Oct 10, 2026",
       "end": "Oct 17, 2026",
@@ -39,6 +30,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-09-30"
+  "cancelled": [
+    {
+      "status": "Booked",
+      "start": "Sep 23, 2026",
+      "end": "Sep 30, 2026",
+      "days": "7 days",
+      "route": "Mykonos, Greece \u2192 Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false,
+      "disappearedAt": "2026-10-01"
+    }
+  ],
+  "checkedAt": "2026-10-01"
 }
