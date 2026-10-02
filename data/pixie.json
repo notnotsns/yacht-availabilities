@@ -39,6 +39,15 @@
       "isNew": false
     },
     {
+      "status": "Hold",
+      "start": "Sep 20, 2027",
+      "end": "Sep 27, 2027",
+      "days": "7 days",
+      "route": "Corfu, Greece \u2192 Kefalonia, Greece",
+      "firstSeen": "2026-10-02",
+      "isNew": true
+    },
+    {
       "status": "Booked",
       "start": "Dec 19, 2027",
       "end": "Dec 26, 2027",
@@ -49,5 +58,5 @@
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-10-01"
+  "checkedAt": "2026-10-02"
 }

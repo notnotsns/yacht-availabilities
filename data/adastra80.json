@@ -18,7 +18,7 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-10-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -27,7 +27,7 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-10-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -36,7 +36,7 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-10-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Hold",
@@ -45,7 +45,7 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-10-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -54,7 +54,7 @@
       "days": "10 days",
       "route": "Mykonos, Greece",
       "firstSeen": "2026-10-01",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Hold",
@@ -63,9 +63,9 @@
       "days": "13 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-10-01",
-      "isNew": true
+      "isNew": false
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-10-01"
+  "checkedAt": "2026-10-02"
 }

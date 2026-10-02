@@ -7,7 +7,9 @@
   "length": "78.7 feet",
   "yachtType": "Catamaran",
   "isCatamaran": true,
-  "checkedAt": "2026-10-01",
+  "guests": 10,
+  "cabins": 5,
+  "crew": 5,
   "bookings": [
     {
       "status": "Hold",
@@ -19,9 +21,6 @@
       "isNew": false
     }
   ],
-  "notes": "List view also showed a Hold row; excluded by the Booked/Unavailable/Transit filter as specified.",
-  "guests": 10,
-  "cabins": 5,
-  "crew": 5,
-  "cancelled": []
+  "cancelled": [],
+  "checkedAt": "2026-10-02"
 }

@@ -91,7 +91,9 @@
       "route": "Lavrion",
       "firstSeen": "2026-09-21",
       "isNew": false
-    },
+    }
+  ],
+  "cancelled": [
     {
       "status": "Hold",
       "start": "Aug 5, 2028",
@@ -99,9 +101,9 @@
       "days": "7 days",
       "route": "Lavrion",
       "firstSeen": "2026-09-25",
-      "isNew": false
+      "isNew": false,
+      "disappearedAt": "2026-10-02"
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-10-01"
+  "checkedAt": "2026-10-02"
 }

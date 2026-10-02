@@ -7,7 +7,9 @@
   "length": "66.8 feet",
   "yachtType": "Catamaran",
   "isCatamaran": true,
-  "checkedAt": "2026-10-01",
+  "guests": 10,
+  "cabins": 5,
+  "crew": 3,
   "bookings": [
     {
       "status": "Booked",
@@ -46,8 +48,6 @@
       "isNew": false
     }
   ],
-  "guests": 10,
-  "cabins": 5,
-  "crew": 3,
-  "cancelled": []
+  "cancelled": [],
+  "checkedAt": "2026-10-02"
 }
