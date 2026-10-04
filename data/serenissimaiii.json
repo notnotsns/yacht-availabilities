@@ -10,7 +10,8 @@
   "guests": 10,
   "cabins": 5,
   "crew": 5,
-  "bookings": [
+  "bookings": [],
+  "cancelled": [
     {
       "status": "Hold",
       "start": "Jul 26, 2027",
@@ -18,9 +19,9 @@
       "days": "7 days",
       "route": "Lefkas, Greece \u2192 Corfu, Greece",
       "firstSeen": "2026-09-21",
-      "isNew": false
+      "isNew": false,
+      "disappearedAt": "2026-10-04"
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-10-03"
+  "checkedAt": "2026-10-04"
 }
