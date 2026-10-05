@@ -1,27 +1,17 @@
 {
-  "slug": "serenissimaiii",
-  "url": "https://viewyacht.com/serenissimaiii",
-  "name": "SERENISSIMA III",
-  "builder": "Fountaine Pajot",
-  "built": 2024,
-  "length": "78.7 feet",
-  "yachtType": "Catamaran",
-  "isCatamaran": true,
-  "guests": 10,
-  "cabins": 5,
-  "crew": 5,
-  "bookings": [],
-  "cancelled": [
-    {
-      "status": "Hold",
-      "start": "Jul 26, 2027",
-      "end": "Aug 2, 2027",
-      "days": "7 days",
-      "route": "Lefkas, Greece \u2192 Corfu, Greece",
-      "firstSeen": "2026-09-21",
-      "isNew": false,
-      "disappearedAt": "2026-10-04"
-    }
-  ],
-  "checkedAt": "2026-10-04"
+ "slug": "serenissimaiii",
+ "url": "https://viewyacht.com/serenissimaiii",
+ "name": "SERENISSIMA III",
+ "builder": "Fountaine Pajot",
+ "built": 2024,
+ "length": "78.7 feet",
+ "yachtType": "Catamaran",
+ "isCatamaran": true,
+ "checkedAt": "2026-10-05",
+ "bookings": [],
+ "notes": "List view also showed a Hold row; excluded by the Booked/Unavailable/Transit filter as specified.",
+ "guests": 10,
+ "cabins": 5,
+ "crew": 5,
+ "cancelled": []
 }
