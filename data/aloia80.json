@@ -30,13 +30,13 @@
       "isNew": false
     },
     {
-      "status": "Hold",
+      "status": "Booked",
       "start": "Aug 13, 2027",
       "end": "Aug 25, 2027",
       "days": "12 days",
       "route": "Greece - Mykonos \u2192 Greece - Santorini",
-      "firstSeen": "2026-10-01",
-      "isNew": false
+      "firstSeen": "2026-10-07",
+      "isNew": true
     },
     {
       "status": "Booked",
@@ -48,6 +48,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-10-06"
+  "cancelled": [
+    {
+      "status": "Hold",
+      "start": "Aug 13, 2027",
+      "end": "Aug 25, 2027",
+      "days": "12 days",
+      "route": "Greece - Mykonos \u2192 Greece - Santorini",
+      "firstSeen": "2026-10-01",
+      "isNew": false,
+      "disappearedAt": "2026-10-07"
+    }
+  ],
+  "checkedAt": "2026-10-07"
 }
