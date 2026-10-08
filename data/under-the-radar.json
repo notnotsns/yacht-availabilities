@@ -1,0 +1,26 @@
+{
+  "slug": "under-the-radar",
+  "url": "https://viewyacht.com/under-the-radar",
+  "name": "UNDER THE RADAR",
+  "builder": "Heysea",
+  "built": 2027,
+  "length": "24.38 meter",
+  "yachtType": "Catamaran",
+  "isCatamaran": true,
+  "guests": 10,
+  "cabins": 5,
+  "crew": 4,
+  "bookings": [
+    {
+      "status": "Unavailable",
+      "start": "Sep 29, 2026",
+      "end": "Jun 30, 2027",
+      "days": "274 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-08",
+      "isNew": true
+    }
+  ],
+  "cancelled": [],
+  "checkedAt": "2026-10-08"
+}

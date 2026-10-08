@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-08",
-  "yachtCount": 25,
-  "upcomingCount": 147,
+  "yachtCount": 26,
+  "upcomingCount": 148,
   "slugs": [
     "10071-alina",
     "serenissimaiii",
@@ -27,7 +27,8 @@
     "elly-ii-2",
     "9629-aether",
     "8866-wonderful",
-    "adastra80"
+    "adastra80",
+    "under-the-radar"
   ],
   "statuses": [
     {
@@ -178,6 +179,12 @@
       "slug": "adastra80",
       "name": "AD ASTRA",
       "bookingCount": 6,
+      "checkedAt": "2026-10-08"
+    },
+    {
+      "slug": "under-the-radar",
+      "name": "UNDER THE RADAR",
+      "bookingCount": 1,
       "checkedAt": "2026-10-08"
     }
   ]
