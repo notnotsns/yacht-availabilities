@@ -7,7 +7,7 @@
   "length": "66.8 feet",
   "yachtType": "Catamaran",
   "isCatamaran": true,
-  "checkedAt": "2026-10-07",
+  "checkedAt": "2026-10-08",
   "bookings": [
     {
       "status": "Booked",
@@ -26,6 +26,15 @@
       "route": "Corfu, Greece \u2192 Zakynthos, Greece",
       "firstSeen": "2026-09-21",
       "isNew": false
+    },
+    {
+      "status": "Hold",
+      "start": "Sep 4, 2027",
+      "end": "Sep 13, 2027",
+      "days": "9 days",
+      "route": "Kefalonia, Greece \u2192 Corfu, Greece",
+      "firstSeen": "2026-10-08",
+      "isNew": true
     },
     {
       "status": "Booked",

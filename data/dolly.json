@@ -90,20 +90,9 @@
       "days": "10 days",
       "route": "Skiathos",
       "firstSeen": "2026-10-07",
-      "isNew": true
+      "isNew": false
     }
   ],
-  "cancelled": [
-    {
-      "status": "Hold",
-      "start": "Aug 14, 2027",
-      "end": "Aug 24, 2027",
-      "days": "10 days",
-      "route": "Skiathos, Greece",
-      "firstSeen": "2026-09-27",
-      "isNew": false,
-      "disappearedAt": "2026-10-07"
-    }
-  ],
-  "checkedAt": "2026-10-07"
+  "cancelled": [],
+  "checkedAt": "2026-10-08"
 }
