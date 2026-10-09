@@ -13,15 +13,6 @@
   "bookings": [
     {
       "status": "Booked",
-      "start": "Sep 29, 2026",
-      "end": "Oct 8, 2026",
-      "days": "9 days",
-      "route": "Lefkas, Greece",
-      "firstSeen": "2026-09-21",
-      "isNew": false
-    },
-    {
-      "status": "Booked",
       "start": "Oct 10, 2026",
       "end": "Oct 17, 2026",
       "days": "7 days",
@@ -93,6 +84,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-10-08"
+  "cancelled": [
+    {
+      "status": "Booked",
+      "start": "Sep 29, 2026",
+      "end": "Oct 8, 2026",
+      "days": "9 days",
+      "route": "Lefkas, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false,
+      "disappearedAt": "2026-10-09"
+    }
+  ],
+  "checkedAt": "2026-10-09"
 }
