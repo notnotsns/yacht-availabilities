@@ -36,7 +36,7 @@
       "days": "7 days",
       "route": "Corfu, Greece \u2192 Kefalonia, Greece",
       "firstSeen": "2026-10-09",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -48,27 +48,6 @@
       "isNew": false
     }
   ],
-  "cancelled": [
-    {
-      "status": "Booked",
-      "start": "Sep 23, 2026",
-      "end": "Oct 8, 2026",
-      "days": "15 days",
-      "route": "Lefkas, Greece",
-      "firstSeen": "2026-09-21",
-      "isNew": false,
-      "disappearedAt": "2026-10-09"
-    },
-    {
-      "status": "Hold",
-      "start": "Sep 20, 2027",
-      "end": "Sep 27, 2027",
-      "days": "7 days",
-      "route": "Corfu, Greece \u2192 Kefalonia, Greece",
-      "firstSeen": "2026-10-02",
-      "isNew": false,
-      "disappearedAt": "2026-10-09"
-    }
-  ],
-  "checkedAt": "2026-10-09"
+  "cancelled": [],
+  "checkedAt": "2026-10-10"
 }
