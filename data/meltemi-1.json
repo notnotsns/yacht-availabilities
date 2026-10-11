@@ -27,9 +27,9 @@
       "days": "7 days",
       "route": "Paros, Greece \u2192 Athens, Greece",
       "firstSeen": "2026-10-10",
-      "isNew": true
+      "isNew": false
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-10-10"
+  "checkedAt": "2026-10-11"
 }

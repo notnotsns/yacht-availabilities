@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-10",
+  "checkedAt": "2026-10-11",
   "yachtCount": 26,
-  "upcomingCount": 145,
+  "upcomingCount": 143,
   "slugs": [
     "10071-alina",
     "serenissimaiii",
@@ -35,157 +35,157 @@
       "slug": "10071-alina",
       "name": "ALINA",
       "bookingCount": 6,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "serenissimaiii",
       "name": "SERENISSIMA III",
-      "bookingCount": 1,
-      "checkedAt": "2026-10-10"
+      "bookingCount": 0,
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "serenissima",
       "name": "SERENISSIMA",
       "bookingCount": 6,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "9727-solmadinina",
       "name": "SOL MADININA",
       "bookingCount": 3,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "10093-christalmio80",
       "name": "CHRISTAL MIO 80",
       "bookingCount": 13,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "aloia80",
       "name": "ALOIA 80",
       "bookingCount": 5,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "9133-sameli",
       "name": "SAMELI",
-      "bookingCount": 3,
-      "checkedAt": "2026-10-10"
+      "bookingCount": 2,
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "alma",
       "name": "ALMA",
       "bookingCount": 7,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "d2",
       "name": "D2",
       "bookingCount": 9,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "powercatsamara",
       "name": "SAMARA",
       "bookingCount": 0,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "10417-andareoltre",
       "name": "ANDARE OLTRE",
       "bookingCount": 6,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "aboveandbeyond",
       "name": "ABOVE & BEYOND",
       "bookingCount": 1,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "christalmio",
       "name": "ChristAl MiO",
       "bookingCount": 8,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "alexandraii",
       "name": "ALEXANDRA II",
       "bookingCount": 9,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "kimata",
       "name": "KIMATA",
       "bookingCount": 3,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "9436-sunmoon",
       "name": "SUNMOON",
       "bookingCount": 18,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "9598-stephanie",
       "name": "STEPHANIE",
       "bookingCount": 3,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "pixie",
       "name": "PIXIE",
       "bookingCount": 4,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "dolly",
       "name": "DOLLY",
       "bookingCount": 8,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "tiamo",
       "name": "TiAmo",
       "bookingCount": 8,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "meltemi-1",
       "name": "MELTEMI",
       "bookingCount": 2,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "elly-ii-2",
       "name": "ELLY II",
       "bookingCount": 6,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "9629-aether",
       "name": "AETHER",
       "bookingCount": 3,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "8866-wonderful",
       "name": "WONDERFUL",
       "bookingCount": 6,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "adastra80",
       "name": "AD ASTRA",
       "bookingCount": 6,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     },
     {
       "slug": "under-the-radar",
       "name": "UNDER THE RADAR",
       "bookingCount": 1,
-      "checkedAt": "2026-10-10"
+      "checkedAt": "2026-10-11"
     }
   ]
 }
