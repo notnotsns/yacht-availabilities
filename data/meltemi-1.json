@@ -21,15 +21,26 @@
       "isNew": false
     },
     {
+      "status": "Booked",
+      "start": "May 27, 2027",
+      "end": "Jun 3, 2027",
+      "days": "7 days",
+      "route": "Paros, Greece \u2192 Athens, Greece",
+      "firstSeen": "2026-10-13",
+      "isNew": true
+    }
+  ],
+  "cancelled": [
+    {
       "status": "Hold",
       "start": "May 27, 2027",
       "end": "Jun 3, 2027",
       "days": "7 days",
       "route": "Paros, Greece \u2192 Athens, Greece",
       "firstSeen": "2026-10-10",
-      "isNew": false
+      "isNew": false,
+      "disappearedAt": "2026-10-13"
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-10-12"
+  "checkedAt": "2026-10-13"
 }
