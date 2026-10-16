@@ -7,7 +7,7 @@
   "length": "66.8 feet",
   "yachtType": "Catamaran",
   "isCatamaran": true,
-  "checkedAt": "2026-10-15",
+  "checkedAt": "2026-10-16",
   "bookings": [
     {
       "status": "Booked",
@@ -34,7 +34,7 @@
       "days": "7 days",
       "route": "Kefalonia, Greece",
       "firstSeen": "2026-10-15",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -43,7 +43,7 @@
       "days": "9 days",
       "route": "Kefalonia, Greece \u2192 Corfu, Greece",
       "firstSeen": "2026-10-15",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -67,26 +67,5 @@
   "guests": 10,
   "cabins": 5,
   "crew": 3,
-  "cancelled": [
-    {
-      "status": "Hold",
-      "start": "Jul 5, 2027",
-      "end": "Jul 12, 2027",
-      "days": "7 days",
-      "route": "Kefalonia, Greece",
-      "firstSeen": "2026-10-09",
-      "isNew": false,
-      "disappearedAt": "2026-10-15"
-    },
-    {
-      "status": "Hold",
-      "start": "Sep 4, 2027",
-      "end": "Sep 13, 2027",
-      "days": "9 days",
-      "route": "Kefalonia, Greece \u2192 Corfu, Greece",
-      "firstSeen": "2026-10-08",
-      "isNew": false,
-      "disappearedAt": "2026-10-15"
-    }
-  ]
+  "cancelled": []
 }

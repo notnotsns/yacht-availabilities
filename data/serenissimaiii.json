@@ -7,16 +7,16 @@
   "length": "78.7 feet",
   "yachtType": "Catamaran",
   "isCatamaran": true,
-  "checkedAt": "2026-10-15",
+  "checkedAt": "2026-10-16",
   "bookings": [
     {
-      "status": "Hold",
+      "status": "Booked",
       "start": "Jul 26, 2027",
       "end": "Aug 2, 2027",
       "days": "7 days",
       "route": "Lefkas, Greece \u2192 Corfu, Greece",
-      "firstSeen": "2026-10-14",
-      "isNew": false
+      "firstSeen": "2026-10-16",
+      "isNew": true
     },
     {
       "status": "Hold",
@@ -32,5 +32,16 @@
   "guests": 10,
   "cabins": 5,
   "crew": 5,
-  "cancelled": []
+  "cancelled": [
+    {
+      "status": "Hold",
+      "start": "Jul 26, 2027",
+      "end": "Aug 2, 2027",
+      "days": "7 days",
+      "route": "Lefkas, Greece \u2192 Corfu, Greece",
+      "firstSeen": "2026-10-14",
+      "isNew": false,
+      "disappearedAt": "2026-10-16"
+    }
+  ]
 }
