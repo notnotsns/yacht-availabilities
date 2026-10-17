@@ -75,17 +75,6 @@
       "isNew": false
     }
   ],
-  "cancelled": [
-    {
-      "status": "Booked",
-      "start": "Oct 9, 2026",
-      "end": "Oct 15, 2026",
-      "days": "6 days",
-      "route": "Lavrion",
-      "firstSeen": "2026-09-21",
-      "isNew": false,
-      "disappearedAt": "2026-10-16"
-    }
-  ],
-  "checkedAt": "2026-10-16"
+  "cancelled": [],
+  "checkedAt": "2026-10-17"
 }
