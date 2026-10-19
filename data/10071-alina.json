@@ -13,15 +13,6 @@
   "bookings": [
     {
       "status": "Booked",
-      "start": "Oct 15, 2026",
-      "end": "Oct 18, 2026",
-      "days": "3 days",
-      "route": "Athens, Greece",
-      "firstSeen": "2026-09-21",
-      "isNew": false
-    },
-    {
-      "status": "Booked",
       "start": "May 26, 2027",
       "end": "May 31, 2027",
       "days": "5 days",
@@ -75,6 +66,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-10-18"
+  "cancelled": [
+    {
+      "status": "Booked",
+      "start": "Oct 15, 2026",
+      "end": "Oct 18, 2026",
+      "days": "3 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-09-21",
+      "isNew": false,
+      "disappearedAt": "2026-10-19"
+    }
+  ],
+  "checkedAt": "2026-10-19"
 }
