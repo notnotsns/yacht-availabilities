@@ -7,7 +7,7 @@
   "length": "78.7 feet",
   "yachtType": "Catamaran",
   "isCatamaran": true,
-  "checkedAt": "2026-10-20",
+  "checkedAt": "2026-10-21",
   "bookings": [
     {
       "status": "Booked",
@@ -16,7 +16,7 @@
       "days": "7 days",
       "route": "Cyprus \u2192 Athens, Greece",
       "firstSeen": "2026-10-20",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -25,7 +25,7 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-10-20",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -35,7 +35,13 @@
       "route": "Lefkas, Greece \u2192 Corfu, Greece",
       "firstSeen": "2026-10-16",
       "isNew": false
-    },
+    }
+  ],
+  "notes": "List view also showed a Hold row; excluded by the Booked/Unavailable/Transit filter as specified.",
+  "guests": 10,
+  "cabins": 5,
+  "crew": 5,
+  "cancelled": [
     {
       "status": "Hold",
       "start": "Aug 19, 2027",
@@ -43,12 +49,8 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-10-14",
-      "isNew": false
+      "isNew": false,
+      "disappearedAt": "2026-10-21"
     }
-  ],
-  "notes": "List view also showed a Hold row; excluded by the Booked/Unavailable/Transit filter as specified.",
-  "guests": 10,
-  "cabins": 5,
-  "crew": 5,
-  "cancelled": []
+  ]
 }
