@@ -162,7 +162,7 @@
       "days": "7 days",
       "route": "Lefkas, Greece",
       "firstSeen": "2026-10-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -183,17 +183,6 @@
       "isNew": false
     }
   ],
-  "cancelled": [
-    {
-      "status": "Hold",
-      "start": "Aug 22, 2027",
-      "end": "Aug 29, 2027",
-      "days": "7 days",
-      "route": "Lefkas, Greece",
-      "firstSeen": "2026-10-17",
-      "isNew": false,
-      "disappearedAt": "2026-10-22"
-    }
-  ],
-  "checkedAt": "2026-10-22"
+  "cancelled": [],
+  "checkedAt": "2026-10-23"
 }
