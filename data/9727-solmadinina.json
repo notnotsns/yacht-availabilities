@@ -18,7 +18,7 @@
       "days": "7 days",
       "route": "Athens, Greece \u2192 Corfu, Greece",
       "firstSeen": "2026-10-25",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -40,5 +40,5 @@
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-10-25"
+  "checkedAt": "2026-10-26"
 }
