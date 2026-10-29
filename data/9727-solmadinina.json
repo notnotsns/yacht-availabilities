@@ -18,7 +18,7 @@
       "days": "6 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-10-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -45,7 +45,7 @@
       "days": "17 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-10-28",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -58,5 +58,5 @@
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-10-28"
+  "checkedAt": "2026-10-29"
 }
