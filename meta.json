@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-29",
-  "yachtCount": 26,
-  "upcomingCount": 165,
+  "yachtCount": 57,
+  "upcomingCount": 323,
   "slugs": [
     "10071-alina",
     "serenissimaiii",
@@ -28,7 +28,38 @@
     "9629-aether",
     "8866-wonderful",
     "adastra80",
-    "under-the-radar"
+    "under-the-radar",
+    "grayone",
+    "genny",
+    "justmarieii",
+    "crazyhorse",
+    "9788-alteya",
+    "10524-amarea",
+    "9532-majestyofgreece",
+    "elly",
+    "alena",
+    "aphaea",
+    "10544-ariva",
+    "selene",
+    "astoria",
+    "allure59",
+    "9789-adaranext",
+    "highjinks1",
+    "millennium-falcon-ii",
+    "9521-almostaroad",
+    "aurelia",
+    "10265-lulu",
+    "9580-sahana",
+    "amante",
+    "luckyclover",
+    "flo",
+    "madinina",
+    "pi2",
+    "9444-adara",
+    "andiamo48",
+    "andareavanti",
+    "helidoni",
+    "endlessbeauty"
   ],
   "statuses": [
     {
@@ -185,6 +216,192 @@
       "slug": "under-the-radar",
       "name": "UNDER THE RADAR",
       "bookingCount": 2,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "grayone",
+      "name": "GRAYONE",
+      "bookingCount": 1,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "genny",
+      "name": "GENNY",
+      "bookingCount": 2,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "justmarieii",
+      "name": "JUST MARIE 2",
+      "bookingCount": 1,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "crazyhorse",
+      "name": "CRAZY HORSE",
+      "bookingCount": 1,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9788-alteya",
+      "name": "ALTEYA",
+      "bookingCount": 2,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "10524-amarea",
+      "name": "AMAREA",
+      "bookingCount": 6,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9532-majestyofgreece",
+      "name": "MAJESTY OF GREECE",
+      "bookingCount": 10,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "elly",
+      "name": "ELLY",
+      "bookingCount": 4,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "alena",
+      "name": "ALENA",
+      "bookingCount": 5,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "aphaea",
+      "name": "APHAEA",
+      "bookingCount": 9,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "10544-ariva",
+      "name": "ARIVA",
+      "bookingCount": 10,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "selene",
+      "name": "SELENE",
+      "bookingCount": 7,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "astoria",
+      "name": "ASTORIA",
+      "bookingCount": 8,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "allure59",
+      "name": "ALLURE",
+      "bookingCount": 13,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9789-adaranext",
+      "name": "ADARA NEXT",
+      "bookingCount": 4,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "highjinks1",
+      "name": "HIGH JINKS",
+      "bookingCount": 3,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "millennium-falcon-ii",
+      "name": "Millennium Falcon II",
+      "bookingCount": 3,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9521-almostaroad",
+      "name": "ALMOSTA ROAD",
+      "bookingCount": 2,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "aurelia",
+      "name": "AURELIA",
+      "bookingCount": 5,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "10265-lulu",
+      "name": "LULU",
+      "bookingCount": 15,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9580-sahana",
+      "name": "SAHANA",
+      "bookingCount": 6,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "amante",
+      "name": "AMANTE",
+      "bookingCount": 3,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "luckyclover",
+      "name": "LUCKY CLOVER",
+      "bookingCount": 0,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "flo",
+      "name": "FLO",
+      "bookingCount": 4,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "madinina",
+      "name": "MADININA",
+      "bookingCount": 4,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "pi2",
+      "name": "PI 2",
+      "bookingCount": 6,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9444-adara",
+      "name": "ADARA",
+      "bookingCount": 6,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "andiamo48",
+      "name": "ANDIAMO",
+      "bookingCount": 5,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "andareavanti",
+      "name": "ANDARE AVANTI",
+      "bookingCount": 10,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "helidoni",
+      "name": "HELIDONI",
+      "bookingCount": 2,
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "endlessbeauty",
+      "name": "ENDLESS BEAUTY",
+      "bookingCount": 1,
       "checkedAt": "2026-10-29"
     }
   ]

@@ -1,0 +1,35 @@
+{
+  "slug": "helidoni",
+  "url": "https://viewyacht.com/helidoni",
+  "name": "HELIDONI",
+  "builder": "Fountaine Pajot",
+  "built": 2024,
+  "length": "45.7 feet",
+  "yachtType": "Catamaran",
+  "isCatamaran": true,
+  "guests": 8,
+  "cabins": 4,
+  "crew": null,
+  "bookings": [
+    {
+      "status": "Booked",
+      "start": "Jun 24, 2027",
+      "end": "Jul 1, 2027",
+      "days": "7 days",
+      "route": "Volos, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Aug 9, 2027",
+      "end": "Aug 30, 2027",
+      "days": "21 days",
+      "route": "Skiathos, Greece \u2192 Lavrion",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    }
+  ],
+  "cancelled": [],
+  "checkedAt": "2026-10-29"
+}

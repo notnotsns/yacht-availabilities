@@ -1,0 +1,3902 @@
+{
+  "checkedAt": "2026-10-29",
+  "yachtCount": 57,
+  "yachts": [
+    {
+      "slug": "10071-alina",
+      "url": "https://viewyacht.com/10071-alina",
+      "name": "ALINA",
+      "builder": "Fountaine Pajot",
+      "built": 2026,
+      "length": "78.7 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 5,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 26, 2027",
+          "end": "May 31, 2027",
+          "days": "5 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-30",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 5, 2027",
+          "end": "Jun 12, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 13, 2027",
+          "end": "Jun 20, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-20",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 18, 2027",
+          "end": "Aug 1, 2027",
+          "days": "14 days",
+          "route": "Kefalonia, Greece \u2192 Zakynthos, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 2, 2027",
+          "end": "Aug 9, 2027",
+          "days": "7 days",
+          "route": "Zakynthos, Greece \u2192 Kefalonia, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 26, 2027",
+          "end": "Sep 2, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece \u2192 Zakynthos, Greece",
+          "firstSeen": "2026-09-23",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "serenissimaiii",
+      "url": "https://viewyacht.com/serenissimaiii",
+      "name": "SERENISSIMA III",
+      "builder": "Fountaine Pajot",
+      "built": 2024,
+      "length": "78.7 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "checkedAt": "2026-10-29",
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Apr 20, 2027",
+          "end": "Apr 27, 2027",
+          "days": "7 days",
+          "route": "Cyprus \u2192 Athens, Greece",
+          "firstSeen": "2026-10-20",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Apr 28, 2027",
+          "end": "May 5, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-20",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 26, 2027",
+          "end": "Aug 2, 2027",
+          "days": "7 days",
+          "route": "Lefkas, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-16",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 3, 2027",
+          "end": "Aug 10, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece \u2192 Lefkas, Greece",
+          "firstSeen": "2026-10-27",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 19, 2027",
+          "end": "Aug 26, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-22",
+          "isNew": false
+        }
+      ],
+      "notes": "List view also showed a Hold row; excluded by the Booked/Unavailable/Transit filter as specified.",
+      "guests": 10,
+      "cabins": 5,
+      "crew": 5,
+      "cancelled": []
+    },
+    {
+      "slug": "serenissima",
+      "url": "https://viewyacht.com/serenissima",
+      "name": "SERENISSIMA",
+      "builder": "Fountaine Pajot",
+      "built": 2019,
+      "length": "66.8 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "checkedAt": "2026-10-29",
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 22, 2027",
+          "end": "May 29, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 7, 2027",
+          "end": "Jun 14, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": true
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 19, 2027",
+          "end": "Jun 26, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece \u2192 Zakynthos, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 27, 2027",
+          "end": "Jul 4, 2027",
+          "days": "7 days",
+          "route": "Zakynthos, Greece \u2192 Kefalonia, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": true
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 5, 2027",
+          "end": "Jul 12, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece",
+          "firstSeen": "2026-10-15",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 4, 2027",
+          "end": "Sep 13, 2027",
+          "days": "9 days",
+          "route": "Kefalonia, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-15",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 14, 2027",
+          "end": "Sep 21, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece \u2192 Kyllini, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 24, 2027",
+          "end": "Oct 1, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece \u2192 Kefalonia, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        }
+      ],
+      "guests": 10,
+      "cabins": 5,
+      "crew": 3,
+      "cancelled": [
+        {
+          "status": "Hold",
+          "start": "Jun 7, 2027",
+          "end": "Jun 14, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-28",
+          "isNew": true,
+          "disappearedAt": "2026-10-29"
+        },
+        {
+          "status": "Hold",
+          "start": "Jun 27, 2027",
+          "end": "Jul 4, 2027",
+          "days": "7 days",
+          "route": "Zakynthos, Greece \u2192 Kefalonia, Greece",
+          "firstSeen": "2026-10-27",
+          "isNew": false,
+          "disappearedAt": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "slug": "9727-solmadinina",
+      "url": "https://viewyacht.com/9727-solmadinina",
+      "name": "SOL MADININA",
+      "builder": "Fountaine Pajot",
+      "built": 2025,
+      "length": "79 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 5,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 29, 2027",
+          "end": "Jun 4, 2027",
+          "days": "6 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-28",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 7, 2027",
+          "end": "Jun 14, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-25",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 20, 2027",
+          "end": "Jul 27, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-26",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 28, 2027",
+          "end": "Aug 14, 2027",
+          "days": "17 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-28",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 16, 2027",
+          "end": "Sep 25, 2027",
+          "days": "9 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-13",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "10093-christalmio80",
+      "url": "https://viewyacht.com/10093-christalmio80",
+      "name": "CHRISTAL MIO 80",
+      "builder": "Fountaine Pajot",
+      "built": 2026,
+      "length": "23.99 meter",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 12,
+      "cabins": 6,
+      "crew": 6,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 29, 2027",
+          "end": "Jun 4, 2027",
+          "days": "6 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 5, 2027",
+          "end": "Jun 12, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 13, 2027",
+          "end": "Jun 20, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 21, 2027",
+          "end": "Jun 28, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-20",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 30, 2027",
+          "end": "Jul 7, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 10, 2027",
+          "end": "Jul 17, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 18, 2027",
+          "end": "Jul 25, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-15",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 26, 2027",
+          "end": "Aug 2, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-26",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 3, 2027",
+          "end": "Aug 10, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 11, 2027",
+          "end": "Aug 18, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 19, 2027",
+          "end": "Aug 26, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Spetses, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 5, 2027",
+          "end": "Sep 12, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 13, 2027",
+          "end": "Sep 20, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Sep 23, 2027",
+          "end": "Sep 30, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": true
+        },
+        {
+          "status": "Booked",
+          "start": "Oct 1, 2027",
+          "end": "Oct 8, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-16",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 10, 2028",
+          "end": "Jun 17, 2028",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "aloia80",
+      "url": "https://viewyacht.com/aloia80",
+      "name": "ALOIA 80",
+      "builder": "Fountaine Pajot",
+      "built": 2024,
+      "length": "78.7 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 5,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 5, 2027",
+          "end": "Jun 12, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 29, 2027",
+          "end": "Jul 6, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece",
+          "firstSeen": "2026-10-15",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 16, 2027",
+          "end": "Jul 23, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Santorini, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 13, 2027",
+          "end": "Aug 25, 2027",
+          "days": "12 days",
+          "route": "Greece - Mykonos \u2192 Greece - Santorini",
+          "firstSeen": "2026-10-07",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 28, 2027",
+          "end": "Sep 4, 2027",
+          "days": "7 days",
+          "route": "Rhodes, Greece \u2192 Kos",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9133-sameli",
+      "url": "https://viewyacht.com/9133-sameli",
+      "name": "SAMELI",
+      "builder": "Two Oceans",
+      "built": 2016,
+      "length": "23 meter",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 4,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jul 7, 2027",
+          "end": "Jul 14, 2027",
+          "days": "7 days",
+          "route": "Skiathos, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 19, 2027",
+          "end": "Sep 23, 2027",
+          "days": "35 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "alma",
+      "url": "https://viewyacht.com/alma",
+      "name": "ALMA",
+      "builder": "Fountaine Pajot",
+      "built": 2022,
+      "length": "61.61 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 3,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 22, 2027",
+          "end": "May 27, 2027",
+          "days": "5 days",
+          "route": "Mykonos, Greece",
+          "firstSeen": "2026-10-10",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 28, 2027",
+          "end": "Jun 4, 2027",
+          "days": "7 days",
+          "route": "Mykonos, Greece \u2192 Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 5, 2027",
+          "end": "Jun 12, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 13, 2027",
+          "end": "Jun 20, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-16",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 21, 2027",
+          "end": "Jun 28, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-27",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 1, 2027",
+          "end": "Jul 8, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-27",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 9, 2027",
+          "end": "Jul 16, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Antiparos, Greece",
+          "firstSeen": "2026-10-18",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Aug 10, 2027",
+          "end": "Aug 25, 2027",
+          "days": "15 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-20",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 4, 2027",
+          "end": "Sep 11, 2027",
+          "days": "7 days",
+          "route": "Paros, Greece",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "d2",
+      "url": "https://viewyacht.com/d2",
+      "name": "D2",
+      "builder": "Fountaine Pajot",
+      "built": 2024,
+      "length": "67 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": 4,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 26, 2027",
+          "end": "Jun 2, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 3, 2027",
+          "end": "Jun 10, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-06",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 11, 2027",
+          "end": "Jun 18, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 19, 2027",
+          "end": "Jun 26, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 27, 2027",
+          "end": "Jul 4, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 21, 2027",
+          "end": "Jul 28, 2027",
+          "days": "7 days",
+          "route": "Mykonos, Greece \u2192 Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 22, 2027",
+          "end": "Aug 29, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 3, 2027",
+          "end": "Sep 10, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 19, 2027",
+          "end": "Sep 26, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "powercatsamara",
+      "url": "https://viewyacht.com/powercatsamara",
+      "name": "SAMARA",
+      "builder": "Custom Power Cat",
+      "built": 2016,
+      "length": "80 feet",
+      "yachtType": "Power",
+      "isCatamaran": false,
+      "guests": 8,
+      "cabins": 4,
+      "crew": 4,
+      "bookings": [],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "10417-andareoltre",
+      "url": "https://viewyacht.com/10417-andareoltre",
+      "name": "ANDARE OLTRE",
+      "builder": "Heysea",
+      "built": 2026,
+      "length": "18.3 meter",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 3,
+      "bookings": [
+        {
+          "status": "Unavailable",
+          "start": "Sep 14, 2026",
+          "end": "Oct 30, 2026",
+          "days": "46 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 12, 2027",
+          "end": "May 19, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-27",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "May 20, 2027",
+          "end": "May 27, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-16",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 28, 2027",
+          "end": "Jun 4, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Jun 5, 2027",
+          "end": "Jun 11, 2027",
+          "days": "6 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-27",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 13, 2027",
+          "end": "Jun 20, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-23",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 21, 2027",
+          "end": "Jun 28, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-09",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 31, 2027",
+          "end": "Aug 8, 2027",
+          "days": "8 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 2, 2027",
+          "end": "Sep 11, 2027",
+          "days": "9 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-20",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Sep 12, 2027",
+          "end": "Sep 19, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-27",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "aboveandbeyond",
+      "url": "https://viewyacht.com/aboveandbeyond",
+      "name": "ABOVE & BEYOND",
+      "builder": "Sunreef Yachts",
+      "built": 2019,
+      "length": "80 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": 5,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 20, 2027",
+          "end": "Jun 27, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "christalmio",
+      "url": "https://viewyacht.com/christalmio",
+      "name": "ChristAl MiO",
+      "builder": "Fountaine Pajot",
+      "built": 2020,
+      "length": "67 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 4,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 22, 2027",
+          "end": "May 29, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 30, 2027",
+          "end": "Jun 6, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Mykonos, Greece",
+          "firstSeen": "2026-10-17",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 7, 2027",
+          "end": "Jun 14, 2027",
+          "days": "7 days",
+          "route": "Mykonos, Greece \u2192 Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Jun 15, 2027",
+          "end": "Jun 22, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": true
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 23, 2027",
+          "end": "Jun 30, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 1, 2027",
+          "end": "Jul 8, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 10, 2027",
+          "end": "Jul 17, 2027",
+          "days": "7 days",
+          "route": "Paros, Greece \u2192 Mykonos, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 27, 2027",
+          "end": "Aug 3, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-15",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 7, 2027",
+          "end": "Sep 21, 2027",
+          "days": "14 days",
+          "route": "Corfu, Greece \u2192 Zakynthos, Greece",
+          "firstSeen": "2026-09-26",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "alexandraii",
+      "url": "https://viewyacht.com/alexandraii",
+      "name": "ALEXANDRA II",
+      "builder": "Fountaine Pajot",
+      "built": 2022,
+      "length": "67 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": 4,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 11, 2027",
+          "end": "Jun 18, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-23",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 19, 2027",
+          "end": "Jun 26, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 27, 2027",
+          "end": "Jul 4, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 5, 2027",
+          "end": "Jul 19, 2027",
+          "days": "14 days",
+          "route": "Athens, Greece \u2192 Rhodes, Greece",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 21, 2027",
+          "end": "Jul 28, 2027",
+          "days": "7 days",
+          "route": "Rhodes, Greece \u2192 Greece, Kos",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Jul 29, 2027",
+          "end": "Aug 12, 2027",
+          "days": "14 days",
+          "route": "Kos",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 14, 2027",
+          "end": "Aug 23, 2027",
+          "days": "9 days",
+          "route": "Kos",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 10, 2027",
+          "end": "Sep 17, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 19, 2027",
+          "end": "Sep 26, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "kimata",
+      "url": "https://viewyacht.com/kimata",
+      "name": "KIMATA",
+      "builder": "Fountaine Pajot",
+      "built": 2021,
+      "length": "67 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": 3,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 23, 2027",
+          "end": "Jun 30, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 10, 2027",
+          "end": "Jul 17, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 18, 2027",
+          "end": "Sep 25, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-10",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9436-sunmoon",
+      "url": "https://viewyacht.com/9436-sunmoon",
+      "name": "SUNMOON",
+      "builder": "Fountaine Pajot",
+      "built": 2024,
+      "length": "66.8 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 3,
+      "bookings": [
+        {
+          "status": "Transit",
+          "start": "Sep 30, 2026",
+          "end": "Dec 17, 2026",
+          "days": "78 days",
+          "route": "Athens, Greece \u2192 Tortola, TBD",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Dec 18, 2026",
+          "end": "Dec 25, 2026",
+          "days": "7 days",
+          "route": "Tortola, TBD",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Dec 26, 2026",
+          "end": "Dec 27, 2026",
+          "days": "1 days",
+          "route": "Tortola, TBD",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Dec 28, 2026",
+          "end": "Jan 4, 2027",
+          "days": "7 days",
+          "route": "Tortola, TBD",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Jan 5, 2027",
+          "end": "Jan 6, 2027",
+          "days": "1 days",
+          "route": "Tortola, TBD",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Jan 13, 2027",
+          "end": "Feb 10, 2027",
+          "days": "28 days",
+          "route": "Tortola, TBD",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Feb 11, 2027",
+          "end": "Feb 12, 2027",
+          "days": "1 days",
+          "route": "Tortola, TBD",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Feb 13, 2027",
+          "end": "Feb 20, 2027",
+          "days": "7 days",
+          "route": "Tortola, TBD",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Feb 21, 2027",
+          "end": "Feb 22, 2027",
+          "days": "1 days",
+          "route": "Tortola, TBD",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Feb 23, 2027",
+          "end": "Mar 2, 2027",
+          "days": "7 days",
+          "route": "Tortola, TBD",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Mar 11, 2027",
+          "end": "Mar 12, 2027",
+          "days": "1 days",
+          "route": "Tortola, TBD",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Mar 13, 2027",
+          "end": "Mar 20, 2027",
+          "days": "7 days",
+          "route": "Tortola, TBD",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Transit",
+          "start": "Mar 21, 2027",
+          "end": "Jun 5, 2027",
+          "days": "76 days",
+          "route": "Tortola, TBD \u2192 Athens, Greece",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 19, 2027",
+          "end": "Jul 3, 2027",
+          "days": "14 days",
+          "route": "Lefkas, Greece",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 6, 2027",
+          "end": "Jul 16, 2027",
+          "days": "10 days",
+          "route": "Lefkas, Greece",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 17, 2027",
+          "end": "Aug 1, 2027",
+          "days": "15 days",
+          "route": "Lefkas, Greece",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 22, 2027",
+          "end": "Aug 29, 2027",
+          "days": "7 days",
+          "route": "Lefkas, Greece",
+          "firstSeen": "2026-10-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 11, 2027",
+          "end": "Sep 18, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 19, 2027",
+          "end": "Sep 26, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Paros, Greece",
+          "firstSeen": "2026-10-02",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9598-stephanie",
+      "url": "https://viewyacht.com/9598-stephanie",
+      "name": "STEPHANIE",
+      "builder": "Fountaine Pajot",
+      "built": 2024,
+      "length": "66.8 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": 4,
+      "bookings": [
+        {
+          "status": "Hold",
+          "start": "Jun 12, 2027",
+          "end": "Jun 19, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": true
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 20, 2027",
+          "end": "Jun 27, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 24, 2027",
+          "end": "Oct 1, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Oct 2, 2027",
+          "end": "Oct 9, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "pixie",
+      "url": "https://viewyacht.com/pixie",
+      "name": "PIXIE",
+      "builder": "Fountaine Pajot",
+      "built": 2022,
+      "length": "66.8 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 9,
+      "cabins": 4,
+      "crew": 3,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 19, 2027",
+          "end": "Jun 26, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 27, 2027",
+          "end": "Jul 4, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-01",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 20, 2027",
+          "end": "Sep 27, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece \u2192 Kefalonia, Greece",
+          "firstSeen": "2026-10-09",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Dec 19, 2027",
+          "end": "Dec 26, 2027",
+          "days": "7 days",
+          "route": "Red Sea",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "dolly",
+      "url": "https://viewyacht.com/dolly",
+      "name": "DOLLY",
+      "builder": "Fountaine Pajot",
+      "built": 2023,
+      "length": "66.8 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 4,
+      "bookings": [
+        {
+          "status": "Unavailable",
+          "start": "May 31, 2027",
+          "end": "Jun 8, 2027",
+          "days": "8 days",
+          "route": "Ionian, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 16, 2027",
+          "end": "Jun 25, 2027",
+          "days": "9 days",
+          "route": "Corfu, Greece \u2192 Kefalonia, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 26, 2027",
+          "end": "Jul 3, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 4, 2027",
+          "end": "Jul 11, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Jul 12, 2027",
+          "end": "Jul 19, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 20, 2027",
+          "end": "Jul 27, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 14, 2027",
+          "end": "Aug 24, 2027",
+          "days": "10 days",
+          "route": "Skiathos",
+          "firstSeen": "2026-10-07",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "tiamo",
+      "url": "https://viewyacht.com/tiamo",
+      "name": "TiAmo",
+      "builder": "Aquila",
+      "built": 2022,
+      "length": "54.2 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": 3,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 19, 2027",
+          "end": "Jun 26, 2027",
+          "days": "7 days",
+          "route": "Lavrion",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 27, 2027",
+          "end": "Jul 4, 2027",
+          "days": "7 days",
+          "route": "Lavrion",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 5, 2027",
+          "end": "Jul 12, 2027",
+          "days": "7 days",
+          "route": "Lavrion",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 13, 2027",
+          "end": "Jul 20, 2027",
+          "days": "7 days",
+          "route": "Lavrion \u2192 Kefalonia, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 4, 2027",
+          "end": "Sep 11, 2027",
+          "days": "7 days",
+          "route": "Lavrion",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 12, 2027",
+          "end": "Sep 19, 2027",
+          "days": "7 days",
+          "route": "Lavrion",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Oct 6, 2027",
+          "end": "Oct 12, 2027",
+          "days": "6 days",
+          "route": "Lavrion",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "meltemi-1",
+      "url": "https://viewyacht.com/meltemi-1",
+      "name": "MELTEMI",
+      "builder": "Moon Yacht",
+      "built": 2027,
+      "length": "70 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 4,
+      "bookings": [
+        {
+          "status": "Unavailable",
+          "start": "Aug 20, 2026",
+          "end": "Mar 31, 2027",
+          "days": "223 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 27, 2027",
+          "end": "Jun 3, 2027",
+          "days": "7 days",
+          "route": "Paros, Greece \u2192 Athens, Greece",
+          "firstSeen": "2026-10-13",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "elly-ii-2",
+      "url": "https://viewyacht.com/elly-ii-2",
+      "name": "ELLY II",
+      "builder": "Fountaine Pajot",
+      "built": 2027,
+      "length": "72.2 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 4,
+      "bookings": [
+        {
+          "status": "Unavailable",
+          "start": "Oct 5, 2026",
+          "end": "May 18, 2027",
+          "days": "225 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-06",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 12, 2027",
+          "end": "Jun 19, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-06",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 28, 2027",
+          "end": "Jul 5, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Jul 8, 2027",
+          "end": "Jul 22, 2027",
+          "days": "14 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-27",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 24, 2027",
+          "end": "Jul 31, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 2, 2027",
+          "end": "Sep 9, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 10, 2027",
+          "end": "Sep 17, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9629-aether",
+      "url": "https://viewyacht.com/9629-aether",
+      "name": "AETHER",
+      "builder": "Fountaine Pajot",
+      "built": 2018,
+      "length": "20.43 meter",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": 3,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jul 2, 2027",
+          "end": "Jul 10, 2027",
+          "days": "8 days",
+          "route": "Lavrion",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 17, 2027",
+          "end": "Jul 24, 2027",
+          "days": "7 days",
+          "route": "Lavrion",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 25, 2027",
+          "end": "Aug 8, 2027",
+          "days": "14 days",
+          "route": "Lavrion",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "8866-wonderful",
+      "url": "https://viewyacht.com/8866-wonderful",
+      "name": "WONDERFUL",
+      "builder": "Gunboat",
+      "built": 2023,
+      "length": "22 meter",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": 3,
+      "bookings": [
+        {
+          "status": "Unavailable",
+          "start": "Oct 1, 2026",
+          "end": "Dec 5, 2026",
+          "days": "65 days",
+          "route": "Cannes, France \u2192 Saint  Marten, West Indies",
+          "firstSeen": "2026-09-26",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Dec 27, 2026",
+          "end": "Jan 3, 2027",
+          "days": "7 days",
+          "route": "Antigua, Leeward Island \u2192 Saint  Maarten, West Indies",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Feb 20, 2027",
+          "end": "Feb 27, 2027",
+          "days": "7 days",
+          "route": "St Vincent, Young Island \u2192 Grenada, St Georges",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Feb 28, 2027",
+          "end": "Mar 5, 2027",
+          "days": "5 days",
+          "route": "",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Mar 6, 2027",
+          "end": "Mar 16, 2027",
+          "days": "10 days",
+          "route": "St. Lucia",
+          "firstSeen": "2026-09-21",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Mar 31, 2027",
+          "end": "Apr 11, 2027",
+          "days": "11 days",
+          "route": "English Harbour, Antigua",
+          "firstSeen": "2026-09-22",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "adastra80",
+      "url": "https://viewyacht.com/adastra80",
+      "name": "AD ASTRA",
+      "builder": "Fountaine Pajot",
+      "built": 2024,
+      "length": "78.7 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 5,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 12, 2027",
+          "end": "Jun 19, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-11",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 20, 2027",
+          "end": "Jun 27, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-27",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 28, 2027",
+          "end": "Jul 5, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-01",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 28, 2027",
+          "end": "Aug 4, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-01",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Aug 5, 2027",
+          "end": "Aug 12, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-01",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 14, 2027",
+          "end": "Aug 24, 2027",
+          "days": "10 days",
+          "route": "Mykonos, Greece",
+          "firstSeen": "2026-10-01",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Sep 2, 2027",
+          "end": "Sep 15, 2027",
+          "days": "13 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-01",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "under-the-radar",
+      "url": "https://viewyacht.com/under-the-radar",
+      "name": "UNDER THE RADAR",
+      "builder": "Heysea",
+      "built": 2027,
+      "length": "24.38 meter",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": 4,
+      "bookings": [
+        {
+          "status": "Unavailable",
+          "start": "Sep 29, 2026",
+          "end": "Jun 30, 2027",
+          "days": "274 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-08",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Aug 28, 2027",
+          "end": "Sep 23, 2027",
+          "days": "26 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-27",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "grayone",
+      "url": "https://viewyacht.com/grayone",
+      "name": "GRAYONE",
+      "builder": "Sunreef Yachts",
+      "built": 2020,
+      "length": "78.4 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 24, 2027",
+          "end": "May 30, 2027",
+          "days": "6 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "genny",
+      "url": "https://viewyacht.com/genny",
+      "name": "GENNY",
+      "builder": "Sunreef Yachts",
+      "built": 2021,
+      "length": "78.3 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 20, 2027",
+          "end": "Jun 27, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 28, 2027",
+          "end": "Jul 8, 2027",
+          "days": "10 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "justmarieii",
+      "url": "https://viewyacht.com/justmarieii",
+      "name": "JUST MARIE 2",
+      "builder": "Lagoon",
+      "built": 2018,
+      "length": "78.1 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 6,
+      "cabins": 3,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Aug 30, 2027",
+          "end": "Sep 30, 2027",
+          "days": "31 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "crazyhorse",
+      "url": "https://viewyacht.com/crazyhorse",
+      "name": "CRAZY HORSE",
+      "builder": "Lagoon",
+      "built": 2019,
+      "length": "78.1 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Aug 21, 2027",
+          "end": "Aug 28, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9788-alteya",
+      "url": "https://viewyacht.com/9788-alteya",
+      "name": "ALTEYA",
+      "builder": "Sunreef Yachts",
+      "built": 2022,
+      "length": "70 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 5, 2027",
+          "end": "Jun 13, 2027",
+          "days": "8 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 24, 2027",
+          "end": "Jul 31, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "10524-amarea",
+      "url": "https://viewyacht.com/10524-amarea",
+      "name": "AMAREA",
+      "builder": "Lagoon",
+      "built": 2026,
+      "length": "20.55 meter",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 29, 2027",
+          "end": "Jun 5, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Jun 15, 2027",
+          "end": "Jul 15, 2027",
+          "days": "30 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 24, 2027",
+          "end": "Jul 31, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 9, 2027",
+          "end": "Aug 23, 2027",
+          "days": "14 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Aug 28, 2027",
+          "end": "Sep 11, 2027",
+          "days": "14 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 12, 2027",
+          "end": "Sep 19, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9532-majestyofgreece",
+      "url": "https://viewyacht.com/9532-majestyofgreece",
+      "name": "MAJESTY OF GREECE",
+      "builder": "Fountaine Pajot",
+      "built": 2025,
+      "length": "67 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 23, 2027",
+          "end": "May 30, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Mykonos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 16, 2027",
+          "end": "Jun 23, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 24, 2027",
+          "end": "Jul 1, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 5, 2027",
+          "end": "Jul 12, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 21, 2027",
+          "end": "Jul 28, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Mykonos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 6, 2027",
+          "end": "Aug 13, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 28, 2027",
+          "end": "Sep 4, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 5, 2027",
+          "end": "Sep 12, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 13, 2027",
+          "end": "Sep 20, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 21, 2027",
+          "end": "Sep 26, 2027",
+          "days": "5 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "elly",
+      "url": "https://viewyacht.com/elly",
+      "name": "ELLY",
+      "builder": "Fountaine Pajot",
+      "built": 2023,
+      "length": "67 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 29, 2027",
+          "end": "Jun 5, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 30, 2027",
+          "end": "Jul 7, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Jul 17, 2027",
+          "end": "Jul 24, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 4, 2027",
+          "end": "Sep 11, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "alena",
+      "url": "https://viewyacht.com/alena",
+      "name": "ALENA",
+      "builder": "Fountaine Pajot",
+      "built": 2023,
+      "length": "67 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 27, 2027",
+          "end": "Jun 3, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Paros, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 14, 2027",
+          "end": "Jun 24, 2027",
+          "days": "10 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 25, 2027",
+          "end": "Jul 2, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 10, 2027",
+          "end": "Sep 17, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 18, 2027",
+          "end": "Sep 25, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "aphaea",
+      "url": "https://viewyacht.com/aphaea",
+      "name": "APHAEA",
+      "builder": "Fountaine Pajot",
+      "built": 2023,
+      "length": "67 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 22, 2027",
+          "end": "May 29, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 30, 2027",
+          "end": "Jun 6, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 3, 2027",
+          "end": "Jul 10, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 19, 2027",
+          "end": "Jul 26, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 30, 2027",
+          "end": "Aug 13, 2027",
+          "days": "14 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 15, 2027",
+          "end": "Aug 29, 2027",
+          "days": "14 days",
+          "route": "Kefalonia, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 5, 2027",
+          "end": "Sep 12, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 13, 2027",
+          "end": "Sep 20, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Oct 2, 2027",
+          "end": "Oct 9, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "10544-ariva",
+      "url": "https://viewyacht.com/10544-ariva",
+      "name": "ARIVA",
+      "builder": "Fountaine Pajot",
+      "built": 2023,
+      "length": "20.37 meter",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 1, 2027",
+          "end": "Jun 8, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Jun 13, 2027",
+          "end": "Jun 20, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece \u2192 Pylos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 21, 2027",
+          "end": "Jun 28, 2027",
+          "days": "7 days",
+          "route": "Pylos, Greece \u2192 Kefalonia, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 29, 2027",
+          "end": "Jul 6, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 1, 2027",
+          "end": "Aug 8, 2027",
+          "days": "7 days",
+          "route": "Lefkas, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 17, 2027",
+          "end": "Aug 24, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece \u2192 Zakynthos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Aug 25, 2027",
+          "end": "Sep 1, 2027",
+          "days": "7 days",
+          "route": "Zakynthos, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 2, 2027",
+          "end": "Sep 9, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 10, 2027",
+          "end": "Sep 17, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece \u2192 Zakynthos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Unavailable",
+          "start": "Sep 18, 2027",
+          "end": "Sep 25, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "selene",
+      "url": "https://viewyacht.com/selene",
+      "name": "SELENE",
+      "builder": "Lagoon",
+      "built": 2015,
+      "length": "62 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 22, 2027",
+          "end": "May 29, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Jun 9, 2027",
+          "end": "Jun 16, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 17, 2027",
+          "end": "Jun 24, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 4, 2027",
+          "end": "Sep 11, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 12, 2027",
+          "end": "Sep 19, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 20, 2027",
+          "end": "Sep 27, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 28, 2027",
+          "end": "Oct 4, 2027",
+          "days": "6 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "astoria",
+      "url": "https://viewyacht.com/astoria",
+      "name": "ASTORIA",
+      "builder": "Fountaine Pajot",
+      "built": 2021,
+      "length": "61.6 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 13, 2027",
+          "end": "May 20, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Mykonos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 5, 2027",
+          "end": "Jun 12, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 13, 2027",
+          "end": "Jun 20, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 21, 2027",
+          "end": "Jun 28, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 10, 2027",
+          "end": "Jul 17, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 4, 2027",
+          "end": "Sep 11, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 12, 2027",
+          "end": "Sep 19, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 20, 2027",
+          "end": "Sep 27, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "allure59",
+      "url": "https://viewyacht.com/allure59",
+      "name": "ALLURE",
+      "builder": "Fountaine Pajot",
+      "built": 2022,
+      "length": "61.6 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 23, 2027",
+          "end": "May 30, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 31, 2027",
+          "end": "Jun 8, 2027",
+          "days": "8 days",
+          "route": "Kefalonia, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 12, 2027",
+          "end": "Jun 19, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 20, 2027",
+          "end": "Jun 26, 2027",
+          "days": "6 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 27, 2027",
+          "end": "Jul 4, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 5, 2027",
+          "end": "Jul 12, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 23, 2027",
+          "end": "Jul 29, 2027",
+          "days": "6 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 31, 2027",
+          "end": "Aug 7, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 8, 2027",
+          "end": "Aug 15, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Kalamata",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 24, 2027",
+          "end": "Sep 11, 2027",
+          "days": "18 days",
+          "route": "Corfu, Greece \u2192 Zakynthos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 12, 2027",
+          "end": "Sep 19, 2027",
+          "days": "7 days",
+          "route": "Zakynthos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 20, 2027",
+          "end": "Sep 27, 2027",
+          "days": "7 days",
+          "route": "Zakynthos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Oct 16, 2027",
+          "end": "Oct 23, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9789-adaranext",
+      "url": "https://viewyacht.com/9789-adaranext",
+      "name": "ADARA NEXT",
+      "builder": "Sunreef Yachts",
+      "built": 2025,
+      "length": "60.37 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 12, 2027",
+          "end": "Jun 19, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 7, 2027",
+          "end": "Aug 14, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 7, 2027",
+          "end": "Sep 15, 2027",
+          "days": "8 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 17, 2027",
+          "end": "Sep 24, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "highjinks1",
+      "url": "https://viewyacht.com/highjinks1",
+      "name": "HIGH JINKS",
+      "builder": "Fountaine Pajot",
+      "built": 2014,
+      "length": "58.8 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 23, 2027",
+          "end": "May 30, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Jun 9, 2027",
+          "end": "Jun 16, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 26, 2027",
+          "end": "Jul 3, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "millennium-falcon-ii",
+      "url": "https://viewyacht.com/millennium-falcon-ii",
+      "name": "Millennium Falcon II",
+      "builder": "Bali Catamarans",
+      "built": 2026,
+      "length": "58 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 21, 2027",
+          "end": "Jun 28, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 19, 2027",
+          "end": "Jul 26, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Oct 1, 2027",
+          "end": "Oct 8, 2027",
+          "days": "7 days",
+          "route": "Preveza, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9521-almostaroad",
+      "url": "https://viewyacht.com/9521-almostaroad",
+      "name": "ALMOSTA ROAD",
+      "builder": "Lagoon",
+      "built": 2025,
+      "length": "55 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 13, 2027",
+          "end": "Jun 20, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 28, 2027",
+          "end": "Sep 4, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "aurelia",
+      "url": "https://viewyacht.com/aurelia",
+      "name": "AURELIA",
+      "builder": "Lagoon",
+      "built": 2024,
+      "length": "54.4 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Hold",
+          "start": "May 8, 2027",
+          "end": "May 15, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 22, 2027",
+          "end": "May 29, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Mykonos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 10, 2027",
+          "end": "Jun 18, 2027",
+          "days": "8 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 19, 2027",
+          "end": "Jun 26, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 4, 2027",
+          "end": "Sep 11, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "10265-lulu",
+      "url": "https://viewyacht.com/10265-lulu",
+      "name": "LULU",
+      "builder": "Lagoon",
+      "built": 2025,
+      "length": "54.4 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 12, 2027",
+          "end": "May 26, 2027",
+          "days": "14 days",
+          "route": "Athens, Greece \u2192 Ionian, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Jun 4, 2027",
+          "end": "Jun 11, 2027",
+          "days": "7 days",
+          "route": "Kefalonia, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 12, 2027",
+          "end": "Jun 19, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece \u2192 Zakynthos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 20, 2027",
+          "end": "Jun 27, 2027",
+          "days": "7 days",
+          "route": "Zakynthos, Greece \u2192 Lefkas, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 28, 2027",
+          "end": "Jul 5, 2027",
+          "days": "7 days",
+          "route": "Lefkas, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 6, 2027",
+          "end": "Jul 13, 2027",
+          "days": "7 days",
+          "route": "Lefkas, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 15, 2027",
+          "end": "Jul 22, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 23, 2027",
+          "end": "Aug 6, 2027",
+          "days": "14 days",
+          "route": "Corfu, Greece \u2192 Lefkas, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Aug 7, 2027",
+          "end": "Aug 15, 2027",
+          "days": "8 days",
+          "route": "Lefkas, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Aug 16, 2027",
+          "end": "Aug 23, 2027",
+          "days": "7 days",
+          "route": "Lefkas, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Aug 24, 2027",
+          "end": "Aug 31, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 1, 2027",
+          "end": "Sep 8, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece \u2192 Zakynthos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 9, 2027",
+          "end": "Sep 16, 2027",
+          "days": "7 days",
+          "route": "Zakynthos, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Sep 17, 2027",
+          "end": "Sep 23, 2027",
+          "days": "6 days",
+          "route": "Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Oct 2, 2027",
+          "end": "Oct 9, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece \u2192 Kefalonia, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9580-sahana",
+      "url": "https://viewyacht.com/9580-sahana",
+      "name": "SAHANA",
+      "builder": "Bali Catamarans",
+      "built": 2024,
+      "length": "53.2 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 22, 2027",
+          "end": "May 29, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 30, 2027",
+          "end": "Jun 6, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 23, 2027",
+          "end": "Jun 30, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jul 1, 2027",
+          "end": "Jul 8, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 4, 2027",
+          "end": "Sep 11, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 12, 2027",
+          "end": "Oct 10, 2027",
+          "days": "28 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "amante",
+      "url": "https://viewyacht.com/amante",
+      "name": "AMANTE",
+      "builder": "Fountaine Pajot",
+      "built": 2023,
+      "length": "52.2 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 24, 2027",
+          "end": "May 31, 2027",
+          "days": "7 days",
+          "route": "Paros, Greece \u2192 Milos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 9, 2027",
+          "end": "Jun 16, 2027",
+          "days": "7 days",
+          "route": "Paros, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 25, 2027",
+          "end": "Jul 2, 2027",
+          "days": "7 days",
+          "route": "Kos",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "luckyclover",
+      "url": "https://viewyacht.com/luckyclover",
+      "name": "LUCKY CLOVER",
+      "builder": "Lagoon",
+      "built": 2016,
+      "length": "52 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": null,
+      "bookings": [],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "flo",
+      "url": "https://viewyacht.com/flo",
+      "name": "FLO",
+      "builder": "Lagoon",
+      "built": 2019,
+      "length": "52 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 29, 2027",
+          "end": "Jun 5, 2027",
+          "days": "7 days",
+          "route": "Mykonos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 14, 2027",
+          "end": "Jun 21, 2027",
+          "days": "7 days",
+          "route": "Mykonos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 8, 2027",
+          "end": "Aug 15, 2027",
+          "days": "7 days",
+          "route": "Greece - Mykonos",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Hold",
+          "start": "Sep 8, 2027",
+          "end": "Sep 12, 2027",
+          "days": "4 days",
+          "route": "Paros, Greece \u2192 Mykonos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "madinina",
+      "url": "https://viewyacht.com/madinina",
+      "name": "MADININA",
+      "builder": "",
+      "built": 2021,
+      "length": "52 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Unavailable",
+          "start": "Jul 8, 2026",
+          "end": "Apr 30, 2027",
+          "days": "296 days",
+          "route": "Lavrion",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 30, 2027",
+          "end": "Jun 6, 2027",
+          "days": "7 days",
+          "route": "Lavrion",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 15, 2027",
+          "end": "Jun 20, 2027",
+          "days": "5 days",
+          "route": "Lavrion \u2192 Paros, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 15, 2027",
+          "end": "Aug 22, 2027",
+          "days": "7 days",
+          "route": "Skiathos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "pi2",
+      "url": "https://viewyacht.com/pi2",
+      "name": "PI 2",
+      "builder": "Fountaine Pajot",
+      "built": 2019,
+      "length": "50 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 29, 2027",
+          "end": "Jun 5, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 10, 2027",
+          "end": "Jun 17, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 18, 2027",
+          "end": "Jun 25, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 26, 2027",
+          "end": "Jul 3, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 4, 2027",
+          "end": "Sep 11, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 2, 2028",
+          "end": "Sep 9, 2028",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "9444-adara",
+      "url": "https://viewyacht.com/9444-adara",
+      "name": "ADARA",
+      "builder": "Sunreef Yachts",
+      "built": 2020,
+      "length": "50 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 23, 2027",
+          "end": "Jun 2, 2027",
+          "days": "10 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 11, 2027",
+          "end": "Jun 18, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 19, 2027",
+          "end": "Jun 26, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 27, 2027",
+          "end": "Jul 3, 2027",
+          "days": "6 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 4, 2027",
+          "end": "Sep 13, 2027",
+          "days": "9 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 14, 2027",
+          "end": "Sep 21, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "andiamo48",
+      "url": "https://viewyacht.com/andiamo48",
+      "name": "ANDIAMO",
+      "builder": "Lagoon",
+      "built": 2019,
+      "length": "48.5 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 5,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "May 30, 2027",
+          "end": "Jun 6, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 8, 2027",
+          "end": "Jun 15, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 17, 2027",
+          "end": "Jun 24, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 25, 2027",
+          "end": "Jul 2, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 16, 2027",
+          "end": "Aug 23, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Paros, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "andareavanti",
+      "url": "https://viewyacht.com/andareavanti",
+      "name": "ANDARE AVANTI",
+      "builder": "Lagoon",
+      "built": 2020,
+      "length": "48.5 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 10,
+      "cabins": 6,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Apr 13, 2027",
+          "end": "Apr 19, 2027",
+          "days": "6 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Apr 30, 2027",
+          "end": "May 7, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece \u2192 Mykonos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 8, 2027",
+          "end": "May 15, 2027",
+          "days": "7 days",
+          "route": "Mykonos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "May 29, 2027",
+          "end": "Jun 3, 2027",
+          "days": "5 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 12, 2027",
+          "end": "Jun 19, 2027",
+          "days": "7 days",
+          "route": "",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Jun 20, 2027",
+          "end": "Jun 27, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 11, 2027",
+          "end": "Aug 18, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 4, 2027",
+          "end": "Sep 11, 2027",
+          "days": "7 days",
+          "route": "Zakynthos, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 12, 2027",
+          "end": "Sep 19, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Sep 20, 2027",
+          "end": "Sep 27, 2027",
+          "days": "7 days",
+          "route": "Corfu, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "helidoni",
+      "url": "https://viewyacht.com/helidoni",
+      "name": "HELIDONI",
+      "builder": "Fountaine Pajot",
+      "built": 2024,
+      "length": "45.7 feet",
+      "yachtType": "Catamaran",
+      "isCatamaran": true,
+      "guests": 8,
+      "cabins": 4,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Jun 24, 2027",
+          "end": "Jul 1, 2027",
+          "days": "7 days",
+          "route": "Volos, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        },
+        {
+          "status": "Booked",
+          "start": "Aug 9, 2027",
+          "end": "Aug 30, 2027",
+          "days": "21 days",
+          "route": "Skiathos, Greece \u2192 Lavrion",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "slug": "endlessbeauty",
+      "url": "https://viewyacht.com/endlessbeauty",
+      "name": "ENDLESS BEAUTY",
+      "builder": "Fountaine Pajot",
+      "built": 2021,
+      "length": "44 feet",
+      "yachtType": "Power Catamaran",
+      "isCatamaran": true,
+      "guests": 6,
+      "cabins": 3,
+      "crew": null,
+      "bookings": [
+        {
+          "status": "Booked",
+          "start": "Oct 22, 2026",
+          "end": "Oct 31, 2026",
+          "days": "9 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-10-29",
+          "isNew": false
+        }
+      ],
+      "cancelled": [],
+      "checkedAt": "2026-10-29"
+    }
+  ]
+}

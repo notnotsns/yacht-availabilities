@@ -1,0 +1,62 @@
+{
+  "slug": "alena",
+  "url": "https://viewyacht.com/alena",
+  "name": "ALENA",
+  "builder": "Fountaine Pajot",
+  "built": 2023,
+  "length": "67 feet",
+  "yachtType": "Power Catamaran",
+  "isCatamaran": true,
+  "guests": 8,
+  "cabins": 4,
+  "crew": null,
+  "bookings": [
+    {
+      "status": "Booked",
+      "start": "May 27, 2027",
+      "end": "Jun 3, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece \u2192 Paros, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jun 14, 2027",
+      "end": "Jun 24, 2027",
+      "days": "10 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jun 25, 2027",
+      "end": "Jul 2, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Sep 10, 2027",
+      "end": "Sep 17, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Sep 18, 2027",
+      "end": "Sep 25, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    }
+  ],
+  "cancelled": [],
+  "checkedAt": "2026-10-29"
+}

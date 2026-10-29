@@ -1,0 +1,53 @@
+{
+  "slug": "madinina",
+  "url": "https://viewyacht.com/madinina",
+  "name": "MADININA",
+  "builder": "",
+  "built": 2021,
+  "length": "52 feet",
+  "yachtType": "Catamaran",
+  "isCatamaran": true,
+  "guests": 8,
+  "cabins": 4,
+  "crew": null,
+  "bookings": [
+    {
+      "status": "Unavailable",
+      "start": "Jul 8, 2026",
+      "end": "Apr 30, 2027",
+      "days": "296 days",
+      "route": "Lavrion",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "May 30, 2027",
+      "end": "Jun 6, 2027",
+      "days": "7 days",
+      "route": "Lavrion",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jun 15, 2027",
+      "end": "Jun 20, 2027",
+      "days": "5 days",
+      "route": "Lavrion \u2192 Paros, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Aug 15, 2027",
+      "end": "Aug 22, 2027",
+      "days": "7 days",
+      "route": "Skiathos, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    }
+  ],
+  "cancelled": [],
+  "checkedAt": "2026-10-29"
+}

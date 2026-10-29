@@ -1,0 +1,80 @@
+{
+  "slug": "selene",
+  "url": "https://viewyacht.com/selene",
+  "name": "SELENE",
+  "builder": "Lagoon",
+  "built": 2015,
+  "length": "62 feet",
+  "yachtType": "Catamaran",
+  "isCatamaran": true,
+  "guests": 10,
+  "cabins": 5,
+  "crew": null,
+  "bookings": [
+    {
+      "status": "Booked",
+      "start": "May 22, 2027",
+      "end": "May 29, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Hold",
+      "start": "Jun 9, 2027",
+      "end": "Jun 16, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jun 17, 2027",
+      "end": "Jun 24, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Sep 4, 2027",
+      "end": "Sep 11, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Sep 12, 2027",
+      "end": "Sep 19, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Sep 20, 2027",
+      "end": "Sep 27, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Sep 28, 2027",
+      "end": "Oct 4, 2027",
+      "days": "6 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    }
+  ],
+  "cancelled": [],
+  "checkedAt": "2026-10-29"
+}

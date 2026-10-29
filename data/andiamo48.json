@@ -1,0 +1,62 @@
+{
+  "slug": "andiamo48",
+  "url": "https://viewyacht.com/andiamo48",
+  "name": "ANDIAMO",
+  "builder": "Lagoon",
+  "built": 2019,
+  "length": "48.5 feet",
+  "yachtType": "Catamaran",
+  "isCatamaran": true,
+  "guests": 10,
+  "cabins": 5,
+  "crew": null,
+  "bookings": [
+    {
+      "status": "Booked",
+      "start": "May 30, 2027",
+      "end": "Jun 6, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jun 8, 2027",
+      "end": "Jun 15, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jun 17, 2027",
+      "end": "Jun 24, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jun 25, 2027",
+      "end": "Jul 2, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Aug 16, 2027",
+      "end": "Aug 23, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece \u2192 Paros, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    }
+  ],
+  "cancelled": [],
+  "checkedAt": "2026-10-29"
+}

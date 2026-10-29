@@ -1,0 +1,44 @@
+{
+  "slug": "millennium-falcon-ii",
+  "url": "https://viewyacht.com/millennium-falcon-ii",
+  "name": "Millennium Falcon II",
+  "builder": "Bali Catamarans",
+  "built": 2026,
+  "length": "58 feet",
+  "yachtType": "Catamaran",
+  "isCatamaran": true,
+  "guests": 8,
+  "cabins": 4,
+  "crew": null,
+  "bookings": [
+    {
+      "status": "Booked",
+      "start": "Jun 21, 2027",
+      "end": "Jun 28, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Jul 19, 2027",
+      "end": "Jul 26, 2027",
+      "days": "7 days",
+      "route": "Kefalonia, Greece \u2192 Corfu, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    },
+    {
+      "status": "Booked",
+      "start": "Oct 1, 2027",
+      "end": "Oct 8, 2027",
+      "days": "7 days",
+      "route": "Preveza, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    }
+  ],
+  "cancelled": [],
+  "checkedAt": "2026-10-29"
+}

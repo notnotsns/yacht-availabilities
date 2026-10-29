@@ -1,0 +1,26 @@
+{
+  "slug": "endlessbeauty",
+  "url": "https://viewyacht.com/endlessbeauty",
+  "name": "ENDLESS BEAUTY",
+  "builder": "Fountaine Pajot",
+  "built": 2021,
+  "length": "44 feet",
+  "yachtType": "Power Catamaran",
+  "isCatamaran": true,
+  "guests": 6,
+  "cabins": 3,
+  "crew": null,
+  "bookings": [
+    {
+      "status": "Booked",
+      "start": "Oct 22, 2026",
+      "end": "Oct 31, 2026",
+      "days": "9 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    }
+  ],
+  "cancelled": [],
+  "checkedAt": "2026-10-29"
+}

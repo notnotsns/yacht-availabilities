@@ -1,0 +1,16 @@
+{
+  "slug": "luckyclover",
+  "url": "https://viewyacht.com/luckyclover",
+  "name": "LUCKY CLOVER",
+  "builder": "Lagoon",
+  "built": 2016,
+  "length": "52 feet",
+  "yachtType": "Catamaran",
+  "isCatamaran": true,
+  "guests": 10,
+  "cabins": 5,
+  "crew": null,
+  "bookings": [],
+  "cancelled": [],
+  "checkedAt": "2026-10-29"
+}

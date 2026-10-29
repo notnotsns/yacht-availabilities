@@ -1,0 +1,26 @@
+{
+  "slug": "justmarieii",
+  "url": "https://viewyacht.com/justmarieii",
+  "name": "JUST MARIE 2",
+  "builder": "Lagoon",
+  "built": 2018,
+  "length": "78.1 feet",
+  "yachtType": "Power Catamaran",
+  "isCatamaran": true,
+  "guests": 6,
+  "cabins": 3,
+  "crew": null,
+  "bookings": [
+    {
+      "status": "Booked",
+      "start": "Aug 30, 2027",
+      "end": "Sep 30, 2027",
+      "days": "31 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-29",
+      "isNew": false
+    }
+  ],
+  "cancelled": [],
+  "checkedAt": "2026-10-29"
+}
