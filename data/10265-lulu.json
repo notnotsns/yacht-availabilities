@@ -34,7 +34,7 @@
       "start": "Jun 12, 2027",
       "end": "Jun 19, 2027",
       "days": "7 days",
-      "route": "Corfu, Greece \u2192 Zakynthos, Greece",
+      "route": "Kefalonia, Greece \u2192 Zakynthos, Greece",
       "firstSeen": "2026-10-29",
       "isNew": false
     },
@@ -148,5 +148,5 @@
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-10-29"
+  "checkedAt": "2026-10-30"
 }

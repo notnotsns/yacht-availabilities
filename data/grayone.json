@@ -19,8 +19,17 @@
       "route": "Athens, Greece",
       "firstSeen": "2026-10-29",
       "isNew": false
+    },
+    {
+      "status": "Hold",
+      "start": "Jun 14, 2027",
+      "end": "Jun 21, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece \u2192 Mykonos, Greece",
+      "firstSeen": "2026-10-30",
+      "isNew": true
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-10-29"
+  "checkedAt": "2026-10-30"
 }
