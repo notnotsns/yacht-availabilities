@@ -21,12 +21,12 @@
       "isNew": false
     },
     {
-      "status": "Hold",
+      "status": "Booked",
       "start": "May 13, 2027",
       "end": "May 20, 2027",
       "days": "7 days",
       "route": "Lavrion",
-      "firstSeen": "2026-10-30",
+      "firstSeen": "2026-10-31",
       "isNew": true
     },
     {
@@ -57,6 +57,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-10-30"
+  "cancelled": [
+    {
+      "status": "Hold",
+      "start": "May 13, 2027",
+      "end": "May 20, 2027",
+      "days": "7 days",
+      "route": "Lavrion",
+      "firstSeen": "2026-10-30",
+      "isNew": true,
+      "disappearedAt": "2026-10-31"
+    }
+  ],
+  "checkedAt": "2026-10-31"
 }

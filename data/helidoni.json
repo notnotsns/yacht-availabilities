@@ -18,7 +18,7 @@
       "days": "6 days",
       "route": "Lavrion",
       "firstSeen": "2026-10-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -36,7 +36,7 @@
       "days": "14 days",
       "route": "Lavrion",
       "firstSeen": "2026-10-30",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -49,5 +49,5 @@
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-10-30"
+  "checkedAt": "2026-10-31"
 }
