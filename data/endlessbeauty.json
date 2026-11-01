@@ -10,7 +10,8 @@
   "guests": 6,
   "cabins": 3,
   "crew": null,
-  "bookings": [
+  "bookings": [],
+  "cancelled": [
     {
       "status": "Booked",
       "start": "Oct 22, 2026",
@@ -18,9 +19,9 @@
       "days": "9 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-10-29",
-      "isNew": false
+      "isNew": false,
+      "disappearedAt": "2026-11-01"
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-10-31"
+  "checkedAt": "2026-11-01"
 }
