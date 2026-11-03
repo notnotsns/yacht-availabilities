@@ -39,15 +39,26 @@
       "isNew": false
     },
     {
+      "status": "Booked",
+      "start": "Sep 8, 2027",
+      "end": "Sep 12, 2027",
+      "days": "4 days",
+      "route": "Paros, Greece \u2192 Mykonos, Greece",
+      "firstSeen": "2026-11-03",
+      "isNew": true
+    }
+  ],
+  "cancelled": [
+    {
       "status": "Hold",
       "start": "Sep 8, 2027",
       "end": "Sep 12, 2027",
       "days": "4 days",
       "route": "Paros, Greece \u2192 Mykonos, Greece",
       "firstSeen": "2026-10-29",
-      "isNew": false
+      "isNew": false,
+      "disappearedAt": "2026-11-03"
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-11-02"
+  "checkedAt": "2026-11-03"
 }

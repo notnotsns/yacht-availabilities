@@ -43,7 +43,7 @@
       "start": "Jul 10, 2027",
       "end": "Jul 17, 2027",
       "days": "7 days",
-      "route": "TBA \u2192 Kefalonia, Greece",
+      "route": "Kefalonia, Greece",
       "firstSeen": "2026-10-31",
       "isNew": false
     },
@@ -66,13 +66,13 @@
       "isNew": false
     },
     {
-      "status": "Hold",
+      "status": "Booked",
       "start": "Aug 18, 2027",
       "end": "Aug 25, 2027",
       "days": "7 days",
       "route": "Kefalonia, Greece \u2192 Corfu, Greece",
-      "firstSeen": "2026-10-31",
-      "isNew": false
+      "firstSeen": "2026-11-03",
+      "isNew": true
     },
     {
       "status": "Booked",
@@ -84,6 +84,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-11-02"
+  "cancelled": [
+    {
+      "status": "Hold",
+      "start": "Aug 18, 2027",
+      "end": "Aug 25, 2027",
+      "days": "7 days",
+      "route": "Kefalonia, Greece \u2192 Corfu, Greece",
+      "firstSeen": "2026-10-31",
+      "isNew": false,
+      "disappearedAt": "2026-11-03"
+    }
+  ],
+  "checkedAt": "2026-11-03"
 }
