@@ -109,8 +109,17 @@
       "route": "Corfu, Greece \u2192 Zakynthos, Greece",
       "firstSeen": "2026-09-26",
       "isNew": false
+    },
+    {
+      "status": "Hold",
+      "start": "Oct 1, 2027",
+      "end": "Oct 8, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-11-05",
+      "isNew": true
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-11-04"
+  "checkedAt": "2026-11-05"
 }

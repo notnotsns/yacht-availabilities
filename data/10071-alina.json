@@ -39,13 +39,13 @@
       "isNew": false
     },
     {
-      "status": "Hold",
+      "status": "Booked",
       "start": "Jul 10, 2027",
       "end": "Jul 17, 2027",
       "days": "7 days",
       "route": "Kefalonia, Greece",
-      "firstSeen": "2026-10-31",
-      "isNew": false
+      "firstSeen": "2026-11-05",
+      "isNew": true
     },
     {
       "status": "Booked",
@@ -84,6 +84,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-11-04"
+  "cancelled": [
+    {
+      "status": "Hold",
+      "start": "Jul 10, 2027",
+      "end": "Jul 17, 2027",
+      "days": "7 days",
+      "route": "Kefalonia, Greece",
+      "firstSeen": "2026-10-31",
+      "isNew": false,
+      "disappearedAt": "2026-11-05"
+    }
+  ],
+  "checkedAt": "2026-11-05"
 }

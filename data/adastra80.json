@@ -75,15 +75,26 @@
       "isNew": false
     },
     {
+      "status": "Booked",
+      "start": "Sep 17, 2027",
+      "end": "Sep 24, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece \u2192 Mykonos, Greece",
+      "firstSeen": "2026-11-05",
+      "isNew": true
+    }
+  ],
+  "cancelled": [
+    {
       "status": "Hold",
       "start": "Sep 17, 2027",
       "end": "Sep 24, 2027",
       "days": "7 days",
       "route": "Athens, Greece \u2192 Mykonos, Greece",
       "firstSeen": "2026-10-31",
-      "isNew": false
+      "isNew": false,
+      "disappearedAt": "2026-11-05"
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-11-04"
+  "checkedAt": "2026-11-05"
 }
