@@ -117,9 +117,9 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-11-05",
-      "isNew": true
+      "isNew": false
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-11-05"
+  "checkedAt": "2026-11-06"
 }
