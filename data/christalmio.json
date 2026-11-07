@@ -12,15 +12,6 @@
   "crew": 4,
   "bookings": [
     {
-      "status": "Hold",
-      "start": "May 14, 2027",
-      "end": "May 21, 2027",
-      "days": "7 days",
-      "route": "Athens, Greece",
-      "firstSeen": "2026-10-31",
-      "isNew": false
-    },
-    {
       "status": "Booked",
       "start": "May 22, 2027",
       "end": "May 29, 2027",
@@ -84,13 +75,13 @@
       "isNew": false
     },
     {
-      "status": "Hold",
+      "status": "Booked",
       "start": "Jul 18, 2027",
       "end": "Jul 25, 2027",
       "days": "7 days",
       "route": "Mykonos, Greece \u2192 Athens, Greece",
-      "firstSeen": "2026-10-31",
-      "isNew": false
+      "firstSeen": "2026-11-07",
+      "isNew": true
     },
     {
       "status": "Booked",
@@ -120,6 +111,27 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-11-06"
+  "cancelled": [
+    {
+      "status": "Hold",
+      "start": "May 14, 2027",
+      "end": "May 21, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-10-31",
+      "isNew": false,
+      "disappearedAt": "2026-11-07"
+    },
+    {
+      "status": "Hold",
+      "start": "Jul 18, 2027",
+      "end": "Jul 25, 2027",
+      "days": "7 days",
+      "route": "Mykonos, Greece \u2192 Athens, Greece",
+      "firstSeen": "2026-10-31",
+      "isNew": false,
+      "disappearedAt": "2026-11-07"
+    }
+  ],
+  "checkedAt": "2026-11-07"
 }
