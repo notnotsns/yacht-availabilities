@@ -30,15 +30,6 @@
       "isNew": false
     },
     {
-      "status": "Hold",
-      "start": "Jun 15, 2027",
-      "end": "Jun 22, 2027",
-      "days": "7 days",
-      "route": "Athens, Greece",
-      "firstSeen": "2026-11-04",
-      "isNew": false
-    },
-    {
       "status": "Booked",
       "start": "Jun 23, 2027",
       "end": "Jun 30, 2027",
@@ -55,6 +46,15 @@
       "route": "Athens, Greece",
       "firstSeen": "2026-10-29",
       "isNew": false
+    },
+    {
+      "status": "Hold",
+      "start": "Jul 10, 2027",
+      "end": "Jul 17, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-11-11",
+      "isNew": true
     },
     {
       "status": "Booked",
@@ -75,6 +75,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-11-10"
+  "cancelled": [
+    {
+      "status": "Hold",
+      "start": "Jun 15, 2027",
+      "end": "Jun 22, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-11-04",
+      "isNew": false,
+      "disappearedAt": "2026-11-11"
+    }
+  ],
+  "checkedAt": "2026-11-11"
 }

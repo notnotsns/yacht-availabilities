@@ -39,13 +39,13 @@
       "isNew": false
     },
     {
-      "status": "Hold",
+      "status": "Booked",
       "start": "Sep 4, 2027",
       "end": "Sep 11, 2027",
       "days": "7 days",
       "route": "Preveza, Greece",
-      "firstSeen": "2026-11-05",
-      "isNew": false
+      "firstSeen": "2026-11-11",
+      "isNew": true
     },
     {
       "status": "Booked",
@@ -57,6 +57,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-11-10"
+  "cancelled": [
+    {
+      "status": "Hold",
+      "start": "Sep 4, 2027",
+      "end": "Sep 11, 2027",
+      "days": "7 days",
+      "route": "Preveza, Greece",
+      "firstSeen": "2026-11-05",
+      "isNew": false,
+      "disappearedAt": "2026-11-11"
+    }
+  ],
+  "checkedAt": "2026-11-11"
 }
