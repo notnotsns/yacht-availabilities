@@ -10,7 +10,17 @@
   "guests": 8,
   "cabins": 4,
   "crew": 4,
-  "bookings": [],
+  "bookings": [
+    {
+      "status": "Hold",
+      "start": "Jul 10, 2027",
+      "end": "Jul 17, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece \u2192 Santorini, Greece",
+      "firstSeen": "2026-11-12",
+      "isNew": true
+    }
+  ],
   "cancelled": [],
-  "checkedAt": "2026-11-11"
+  "checkedAt": "2026-11-12"
 }

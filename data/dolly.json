@@ -73,8 +73,17 @@
       "route": "Skiathos",
       "firstSeen": "2026-10-07",
       "isNew": false
+    },
+    {
+      "status": "Hold",
+      "start": "Sep 10, 2028",
+      "end": "Sep 17, 2028",
+      "days": "7 days",
+      "route": "Corfu, Greece",
+      "firstSeen": "2026-11-12",
+      "isNew": true
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-11-11"
+  "checkedAt": "2026-11-12"
 }

@@ -30,6 +30,15 @@
       "isNew": false
     },
     {
+      "status": "Hold",
+      "start": "Sep 9, 2027",
+      "end": "Sep 18, 2027",
+      "days": "9 days",
+      "route": "Corfu, Greece \u2192 Lefkas, Greece",
+      "firstSeen": "2026-11-12",
+      "isNew": true
+    },
+    {
       "status": "Booked",
       "start": "Sep 20, 2027",
       "end": "Sep 27, 2027",
@@ -49,5 +58,5 @@
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-11-11"
+  "checkedAt": "2026-11-12"
 }
