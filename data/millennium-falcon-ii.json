@@ -12,13 +12,13 @@
   "crew": null,
   "bookings": [
     {
-      "status": "Hold",
+      "status": "Booked",
       "start": "Jun 13, 2027",
       "end": "Jun 20, 2027",
       "days": "7 days",
       "route": "Athens, Greece",
-      "firstSeen": "2026-11-09",
-      "isNew": false
+      "firstSeen": "2026-11-13",
+      "isNew": true
     },
     {
       "status": "Booked",
@@ -57,6 +57,17 @@
       "isNew": false
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-11-12"
+  "cancelled": [
+    {
+      "status": "Hold",
+      "start": "Jun 13, 2027",
+      "end": "Jun 20, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece",
+      "firstSeen": "2026-11-09",
+      "isNew": false,
+      "disappearedAt": "2026-11-13"
+    }
+  ],
+  "checkedAt": "2026-11-13"
 }
