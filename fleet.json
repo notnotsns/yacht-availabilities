@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-13",
+  "checkedAt": "2026-11-14",
   "yachtCount": 57,
   "yachts": [
     {
@@ -89,7 +89,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "serenissimaiii",
@@ -100,7 +100,7 @@
       "length": "78.7 feet",
       "yachtType": "Catamaran",
       "isCatamaran": true,
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "bookings": [
         {
           "status": "Booked",
@@ -163,7 +163,7 @@
       "length": "66.8 feet",
       "yachtType": "Catamaran",
       "isCatamaran": true,
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "bookings": [
         {
           "status": "Booked",
@@ -312,7 +312,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "10093-christalmio80",
@@ -473,7 +473,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "aloia80",
@@ -535,7 +535,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "9133-sameli",
@@ -570,7 +570,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "alma",
@@ -677,7 +677,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "d2",
@@ -775,7 +775,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "powercatsamara",
@@ -801,7 +801,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "10417-andareoltre",
@@ -871,15 +871,6 @@
           "isNew": false
         },
         {
-          "status": "Hold",
-          "start": "Jul 7, 2027",
-          "end": "Jul 14, 2027",
-          "days": "7 days",
-          "route": "Athens, Greece",
-          "firstSeen": "2026-11-07",
-          "isNew": false
-        },
-        {
           "status": "Booked",
           "start": "Jul 31, 2027",
           "end": "Aug 8, 2027",
@@ -907,8 +898,19 @@
           "isNew": false
         }
       ],
-      "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "cancelled": [
+        {
+          "status": "Hold",
+          "start": "Jul 7, 2027",
+          "end": "Jul 14, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-11-07",
+          "isNew": false,
+          "disappearedAt": "2026-11-14"
+        }
+      ],
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "aboveandbeyond",
@@ -948,11 +950,11 @@
           "days": "7 days",
           "route": "Zakynthos, Greece",
           "firstSeen": "2026-11-13",
-          "isNew": true
+          "isNew": false
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "christalmio",
@@ -1077,7 +1079,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "alexandraii",
@@ -1175,7 +1177,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "kimata",
@@ -1219,7 +1221,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "9436-sunmoon",
@@ -1407,7 +1409,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "9598-stephanie",
@@ -1442,6 +1444,15 @@
         },
         {
           "status": "Booked",
+          "start": "Jul 30, 2027",
+          "end": "Aug 7, 2027",
+          "days": "8 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-11-14",
+          "isNew": true
+        },
+        {
+          "status": "Booked",
           "start": "Sep 24, 2027",
           "end": "Oct 1, 2027",
           "days": "7 days",
@@ -1459,19 +1470,8 @@
           "isNew": false
         }
       ],
-      "cancelled": [
-        {
-          "status": "Hold",
-          "start": "Jul 30, 2027",
-          "end": "Aug 6, 2027",
-          "days": "7 days",
-          "route": "Athens, Greece",
-          "firstSeen": "2026-11-06",
-          "isNew": false,
-          "disappearedAt": "2026-11-13"
-        }
-      ],
-      "checkedAt": "2026-11-13"
+      "cancelled": [],
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "pixie",
@@ -1533,7 +1533,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "dolly",
@@ -1622,7 +1622,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "tiamo",
@@ -1702,7 +1702,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "meltemi-1",
@@ -1737,7 +1737,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "elly-ii-2",
@@ -1817,7 +1817,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "9629-aether",
@@ -1861,7 +1861,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "8866-wonderful",
@@ -1932,7 +1932,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "adastra80",
@@ -2021,7 +2021,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "under-the-radar",
@@ -2065,7 +2065,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "grayone",
@@ -2100,7 +2100,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "genny",
@@ -2144,7 +2144,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "justmarieii",
@@ -2170,7 +2170,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "crazyhorse",
@@ -2214,7 +2214,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "9788-alteya",
@@ -2249,7 +2249,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "10524-amarea",
@@ -2329,7 +2329,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "9532-majestyofgreece",
@@ -2444,19 +2444,8 @@
           "isNew": false
         }
       ],
-      "cancelled": [
-        {
-          "status": "Hold",
-          "start": "May 15, 2027",
-          "end": "May 22, 2027",
-          "days": "7 days",
-          "route": "Athens, Greece \u2192 Santorini, Greece",
-          "firstSeen": "2026-11-10",
-          "isNew": false,
-          "disappearedAt": "2026-11-13"
-        }
-      ],
-      "checkedAt": "2026-11-13"
+      "cancelled": [],
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "elly",
@@ -2536,7 +2525,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "alena",
@@ -2598,7 +2587,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "aphaea",
@@ -2638,7 +2627,7 @@
           "days": "7 days",
           "route": "Athens, Greece",
           "firstSeen": "2026-11-13",
-          "isNew": true
+          "isNew": false
         },
         {
           "status": "Booked",
@@ -2704,19 +2693,8 @@
           "isNew": false
         }
       ],
-      "cancelled": [
-        {
-          "status": "Hold",
-          "start": "Jun 23, 2027",
-          "end": "Jun 30, 2027",
-          "days": "7 days",
-          "route": "Athens, Greece",
-          "firstSeen": "2026-11-06",
-          "isNew": false,
-          "disappearedAt": "2026-11-13"
-        }
-      ],
-      "checkedAt": "2026-11-13"
+      "cancelled": [],
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "10544-ariva",
@@ -2823,7 +2801,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "selene",
@@ -2903,7 +2881,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "astoria",
@@ -2992,7 +2970,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "allure59",
@@ -3126,7 +3104,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "9789-adaranext",
@@ -3188,7 +3166,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "highjinks1",
@@ -3232,7 +3210,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "millennium-falcon-ii",
@@ -3254,7 +3232,7 @@
           "days": "7 days",
           "route": "Athens, Greece",
           "firstSeen": "2026-11-13",
-          "isNew": true
+          "isNew": false
         },
         {
           "status": "Booked",
@@ -3293,19 +3271,8 @@
           "isNew": false
         }
       ],
-      "cancelled": [
-        {
-          "status": "Hold",
-          "start": "Jun 13, 2027",
-          "end": "Jun 20, 2027",
-          "days": "7 days",
-          "route": "Athens, Greece",
-          "firstSeen": "2026-11-09",
-          "isNew": false,
-          "disappearedAt": "2026-11-13"
-        }
-      ],
-      "checkedAt": "2026-11-13"
+      "cancelled": [],
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "9521-almostaroad",
@@ -3349,7 +3316,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "aurelia",
@@ -3420,7 +3387,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "10265-lulu",
@@ -3572,7 +3539,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "9580-sahana",
@@ -3603,15 +3570,6 @@
           "days": "7 days",
           "route": "Athens, Greece",
           "firstSeen": "2026-10-29",
-          "isNew": false
-        },
-        {
-          "status": "Hold",
-          "start": "Jun 15, 2027",
-          "end": "Jun 22, 2027",
-          "days": "7 days",
-          "route": "Athens, Greece",
-          "firstSeen": "2026-11-12",
           "isNew": false
         },
         {
@@ -3660,8 +3618,19 @@
           "isNew": false
         }
       ],
-      "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "cancelled": [
+        {
+          "status": "Hold",
+          "start": "Jun 15, 2027",
+          "end": "Jun 22, 2027",
+          "days": "7 days",
+          "route": "Athens, Greece",
+          "firstSeen": "2026-11-12",
+          "isNew": false,
+          "disappearedAt": "2026-11-14"
+        }
+      ],
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "amante",
@@ -3714,7 +3683,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "luckyclover",
@@ -3730,7 +3699,7 @@
       "crew": null,
       "bookings": [],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "flo",
@@ -3792,7 +3761,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "madinina",
@@ -3854,7 +3823,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "pi2",
@@ -3943,7 +3912,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "9444-adara",
@@ -4014,7 +3983,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "andiamo48",
@@ -4076,7 +4045,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "andareavanti",
@@ -4146,13 +4115,13 @@
           "isNew": false
         },
         {
-          "status": "Hold",
+          "status": "Booked",
           "start": "Aug 3, 2027",
           "end": "Aug 10, 2027",
           "days": "7 days",
           "route": "Zakynthos, Greece \u2192 Corfu, Greece",
-          "firstSeen": "2026-11-10",
-          "isNew": false
+          "firstSeen": "2026-11-14",
+          "isNew": true
         },
         {
           "status": "Booked",
@@ -4191,8 +4160,19 @@
           "isNew": false
         }
       ],
-      "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "cancelled": [
+        {
+          "status": "Hold",
+          "start": "Aug 3, 2027",
+          "end": "Aug 10, 2027",
+          "days": "7 days",
+          "route": "Zakynthos, Greece \u2192 Corfu, Greece",
+          "firstSeen": "2026-11-10",
+          "isNew": false,
+          "disappearedAt": "2026-11-14"
+        }
+      ],
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "helidoni",
@@ -4245,7 +4225,7 @@
         }
       ],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     },
     {
       "slug": "endlessbeauty",
@@ -4261,7 +4241,7 @@
       "crew": null,
       "bookings": [],
       "cancelled": [],
-      "checkedAt": "2026-11-13"
+      "checkedAt": "2026-11-14"
     }
   ]
 }

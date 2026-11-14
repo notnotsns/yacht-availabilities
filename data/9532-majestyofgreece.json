@@ -111,17 +111,6 @@
       "isNew": false
     }
   ],
-  "cancelled": [
-    {
-      "status": "Hold",
-      "start": "May 15, 2027",
-      "end": "May 22, 2027",
-      "days": "7 days",
-      "route": "Athens, Greece \u2192 Santorini, Greece",
-      "firstSeen": "2026-11-10",
-      "isNew": false,
-      "disappearedAt": "2026-11-13"
-    }
-  ],
-  "checkedAt": "2026-11-13"
+  "cancelled": [],
+  "checkedAt": "2026-11-14"
 }
