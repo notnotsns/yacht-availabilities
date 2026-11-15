@@ -72,7 +72,7 @@
       "days": "7 days",
       "route": "Zakynthos, Greece \u2192 Corfu, Greece",
       "firstSeen": "2026-11-14",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -111,17 +111,6 @@
       "isNew": false
     }
   ],
-  "cancelled": [
-    {
-      "status": "Hold",
-      "start": "Aug 3, 2027",
-      "end": "Aug 10, 2027",
-      "days": "7 days",
-      "route": "Zakynthos, Greece \u2192 Corfu, Greece",
-      "firstSeen": "2026-11-10",
-      "isNew": false,
-      "disappearedAt": "2026-11-14"
-    }
-  ],
-  "checkedAt": "2026-11-14"
+  "cancelled": [],
+  "checkedAt": "2026-11-15"
 }

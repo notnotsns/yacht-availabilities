@@ -57,15 +57,26 @@
       "isNew": false
     },
     {
+      "status": "Booked",
+      "start": "Mar 31, 2027",
+      "end": "Apr 11, 2027",
+      "days": "11 days",
+      "route": "English Harbour, Antigua",
+      "firstSeen": "2026-11-15",
+      "isNew": true
+    }
+  ],
+  "cancelled": [
+    {
       "status": "Hold",
       "start": "Mar 31, 2027",
       "end": "Apr 11, 2027",
       "days": "11 days",
       "route": "English Harbour, Antigua",
       "firstSeen": "2026-09-22",
-      "isNew": false
+      "isNew": false,
+      "disappearedAt": "2026-11-15"
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-11-14"
+  "checkedAt": "2026-11-15"
 }
