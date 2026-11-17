@@ -12,6 +12,15 @@
   "crew": 3,
   "bookings": [
     {
+      "status": "Hold",
+      "start": "May 25, 2027",
+      "end": "Jun 1, 2027",
+      "days": "7 days",
+      "route": "Athens, Greece \u2192 Mykonos, Greece",
+      "firstSeen": "2026-11-17",
+      "isNew": true
+    },
+    {
       "status": "Booked",
       "start": "Jun 23, 2027",
       "end": "Jun 30, 2027",
@@ -40,5 +49,5 @@
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-11-16"
+  "checkedAt": "2026-11-17"
 }
