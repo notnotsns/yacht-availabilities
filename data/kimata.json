@@ -18,7 +18,7 @@
       "days": "7 days",
       "route": "Athens, Greece \u2192 Mykonos, Greece",
       "firstSeen": "2026-11-17",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -49,5 +49,5 @@
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-11-17"
+  "checkedAt": "2026-11-18"
 }

@@ -54,9 +54,9 @@
       "days": "14 days",
       "route": "Paros, Greece",
       "firstSeen": "2026-11-17",
-      "isNew": true
+      "isNew": false
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-11-17"
+  "checkedAt": "2026-11-18"
 }

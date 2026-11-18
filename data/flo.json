@@ -40,6 +40,15 @@
     },
     {
       "status": "Booked",
+      "start": "Jul 8, 2027",
+      "end": "Jul 15, 2027",
+      "days": "7 days",
+      "route": "Mykonos, Greece",
+      "firstSeen": "2026-11-18",
+      "isNew": true
+    },
+    {
+      "status": "Booked",
       "start": "Aug 8, 2027",
       "end": "Aug 15, 2027",
       "days": "7 days",
@@ -58,5 +67,5 @@
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-11-17"
+  "checkedAt": "2026-11-18"
 }
