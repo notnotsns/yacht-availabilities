@@ -122,11 +122,11 @@
     {
       "status": "Transit",
       "start": "Mar 21, 2027",
-      "end": "Jun 5, 2027",
-      "days": "76 days",
+      "end": "Jun 8, 2027",
+      "days": "79 days",
       "route": "Tortola, TBD \u2192 Athens, Greece",
-      "firstSeen": "2026-09-22",
-      "isNew": false
+      "firstSeen": "2026-11-19",
+      "isNew": true
     },
     {
       "status": "Booked",
@@ -165,12 +165,12 @@
       "isNew": false
     },
     {
-      "status": "Hold",
+      "status": "Booked",
       "start": "Sep 1, 2027",
       "end": "Sep 10, 2027",
       "days": "9 days",
       "route": "Corfu, Greece \u2192 Athens, Greece",
-      "firstSeen": "2026-11-18",
+      "firstSeen": "2026-11-19",
       "isNew": true
     },
     {
@@ -190,8 +190,47 @@
       "route": "Athens, Greece \u2192 Paros, Greece",
       "firstSeen": "2026-10-02",
       "isNew": false
+    },
+    {
+      "status": "Transit",
+      "start": "Sep 28, 2027",
+      "end": "Dec 15, 2027",
+      "days": "78 days",
+      "route": "Athens, Greece \u2192 Caribbean - Port TBD",
+      "firstSeen": "2026-11-19",
+      "isNew": true
+    },
+    {
+      "status": "Transit",
+      "start": "Mar 26, 2028",
+      "end": "Jun 8, 2028",
+      "days": "74 days",
+      "route": "Caribbean - Port TBD \u2192 Athens, Greece",
+      "firstSeen": "2026-11-19",
+      "isNew": true
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-11-18"
+  "cancelled": [
+    {
+      "status": "Transit",
+      "start": "Mar 21, 2027",
+      "end": "Jun 5, 2027",
+      "days": "76 days",
+      "route": "Tortola, TBD \u2192 Athens, Greece",
+      "firstSeen": "2026-09-22",
+      "isNew": false,
+      "disappearedAt": "2026-11-19"
+    },
+    {
+      "status": "Hold",
+      "start": "Sep 1, 2027",
+      "end": "Sep 10, 2027",
+      "days": "9 days",
+      "route": "Corfu, Greece \u2192 Athens, Greece",
+      "firstSeen": "2026-11-18",
+      "isNew": true,
+      "disappearedAt": "2026-11-19"
+    }
+  ],
+  "checkedAt": "2026-11-19"
 }
