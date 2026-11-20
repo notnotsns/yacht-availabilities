@@ -75,17 +75,6 @@
       "isNew": false
     }
   ],
-  "cancelled": [
-    {
-      "status": "Hold",
-      "start": "Sep 10, 2028",
-      "end": "Sep 17, 2028",
-      "days": "7 days",
-      "route": "Corfu, Greece",
-      "firstSeen": "2026-11-12",
-      "isNew": false,
-      "disappearedAt": "2026-11-19"
-    }
-  ],
-  "checkedAt": "2026-11-19"
+  "cancelled": [],
+  "checkedAt": "2026-11-20"
 }

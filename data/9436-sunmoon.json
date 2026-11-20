@@ -126,7 +126,7 @@
       "days": "79 days",
       "route": "Tortola, TBD \u2192 Athens, Greece",
       "firstSeen": "2026-11-19",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -171,7 +171,7 @@
       "days": "9 days",
       "route": "Corfu, Greece \u2192 Athens, Greece",
       "firstSeen": "2026-11-19",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -198,7 +198,7 @@
       "days": "78 days",
       "route": "Athens, Greece \u2192 Caribbean - Port TBD",
       "firstSeen": "2026-11-19",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Transit",
@@ -207,30 +207,9 @@
       "days": "74 days",
       "route": "Caribbean - Port TBD \u2192 Athens, Greece",
       "firstSeen": "2026-11-19",
-      "isNew": true
+      "isNew": false
     }
   ],
-  "cancelled": [
-    {
-      "status": "Transit",
-      "start": "Mar 21, 2027",
-      "end": "Jun 5, 2027",
-      "days": "76 days",
-      "route": "Tortola, TBD \u2192 Athens, Greece",
-      "firstSeen": "2026-09-22",
-      "isNew": false,
-      "disappearedAt": "2026-11-19"
-    },
-    {
-      "status": "Hold",
-      "start": "Sep 1, 2027",
-      "end": "Sep 10, 2027",
-      "days": "9 days",
-      "route": "Corfu, Greece \u2192 Athens, Greece",
-      "firstSeen": "2026-11-18",
-      "isNew": true,
-      "disappearedAt": "2026-11-19"
-    }
-  ],
-  "checkedAt": "2026-11-19"
+  "cancelled": [],
+  "checkedAt": "2026-11-20"
 }
