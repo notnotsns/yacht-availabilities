@@ -54,7 +54,7 @@
       "days": "14 days",
       "route": "",
       "firstSeen": "2026-11-22",
-      "isNew": true
+      "isNew": false
     },
     {
       "status": "Booked",
@@ -112,5 +112,5 @@
     }
   ],
   "cancelled": [],
-  "checkedAt": "2026-11-22"
+  "checkedAt": "2026-11-23"
 }
