@@ -109,7 +109,9 @@
       "route": "Athens, Greece",
       "firstSeen": "2026-10-29",
       "isNew": false
-    },
+    }
+  ],
+  "cancelled": [
     {
       "status": "Hold",
       "start": "Sep 27, 2027",
@@ -117,9 +119,9 @@
       "days": "7 days",
       "route": "Athens, Greece",
       "firstSeen": "2026-11-20",
-      "isNew": false
+      "isNew": false,
+      "disappearedAt": "2026-11-27"
     }
   ],
-  "cancelled": [],
-  "checkedAt": "2026-11-26"
+  "checkedAt": "2026-11-27"
 }
